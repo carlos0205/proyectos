@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sothink_menu>
+  <description>
+    <temp_depict></temp_depict>
+    <temp_title></temp_title>
+    <version>9.00</version>
+    <prog_id>PageletServer.DynamicMenu</prog_id>
+    <update_time></update_time>
+    <preview_path></preview_path>
+  </description>
+  <global>
+    <top_state>2</top_state>
+    <publish_file></publish_file>
+    <js_path_name></js_path_name>
+    <fast_js_enable>1</fast_js_enable>
+    <fast_js_type>0</fast_js_type>
+    <fast_js_path>C:\Program Files\EasyPHP 2.0b1\www\enlaxes\administrador\js\mnuadm.js</fast_js_path>
+    <fast_js_img_path></fast_js_img_path>
+    <fast_js_script_path></fast_js_script_path>
+    <click_show>1</click_show>
+    <right_to_left>0</right_to_left>
+    <hide_sub>1</hide_sub>
+    <delay_hide>999</delay_hide>
+    <delay_show_v>250</delay_show_v>
+    <delay_show_h>0</delay_show_h>
+    <ie_encode>auto-select</ie_encode>
+    <tab_menu_select_method>1</tab_menu_select_method>
+    <tab_menu_popup_height>25</tab_menu_popup_height>
+    <name>menu736a</name>
+    <type>0</type>
+    <align>0</align>
+    <stretch_width>0</stretch_width>
+    <width>100</width>
+    <width_unit>0</width_unit>
+    <coor_x>0</coor_x>
+    <coor_x_scroll>0</coor_x_scroll>
+    <coor_y>0</coor_y>
+    <coor_y_scroll>0</coor_y_scroll>
+    <cursor_nolink></cursor_nolink>
+    <cursor_link></cursor_link>
+    <script_path></script_path>
+    <image_path></image_path>
+    <site_root></site_root>
+    <advanced>0</advanced>
+    <link_prefix></link_prefix>
+    <highlight>67108896</highlight>
+    <highlight_level>1</highlight_level>
+    <tab_highlight>67109119</tab_highlight>
+    <tab_highlight_level>2</tab_highlight_level>
+    <tab_spacing>2</tab_spacing>
+    <tab_padding>3</tab_padding>
+    <tab_transparency>0</tab_transparency>
+    <tab_border_style>1</tab_border_style>
+    <tab_border_width>1</tab_border_width>
+    <tab_border_color>#000000</tab_border_color>
+    <tab_border_synchronize>1</tab_border_synchronize>
+    <tab_bg_color>#E6EFF9</tab_bg_color>
+    <tab_bg_transparent>0</tab_bg_transparent>
+    <tab_bg_image></tab_bg_image>
+    <tab_bg_tile>3</tab_bg_tile>
+    <encode>1</encode>
+    <hide_select>1</hide_select>
+    <hide_object>0</hide_object>
+    <hide_iframe>0</hide_iframe>
+  </global>
+  <ul>
+    <li type="text" class="item"><a href="index1.php" target="_self">Inicio</a></li>
+    <li type="text" class="pop_item"><a href="" target="_self">Sitio</a></li>
+    <ul>
+      <li type="text" class="pop_item"><a href="" target="_self">Estadísticas_&amp;nbsp; 15</a></li>
+      <ul>
+        <li type="text" class="item"><a href="vissec.php" target="_self">Visitas por Sección</a></li>
+        <li type="text" class="item"><a href="visdia.php" target="_self">Visitas por Dia_&amp;nbsp; 3</a></li>
+        <li type="text" class="item"><a href="vismes.php" target="_self">Visitas por Mes_&amp;nbsp; 3</a></li>
+        <li type="text" class="item"><a href="vispais.php" target="_self">Visitas por País_&amp;nbsp; 3</a></li>
+        <li type="text" class="item"><a href="vishor.php" target="_self">Trafico horario_&amp;nbsp; 3</a></li>
+      </ul>
+      <li type="text" class="item"><a href="repositorio.php" target="_self">Repositorio Archivos_&amp;nbsp; 4</a></li>
+      <li type="text" class="item"><a href="intpag.php" target="_self">Introducción Páginas_&amp;nbsp; 4</a></li>
+      <li type="text" class="item"><a href="pagsiteimgdiaria.php" target="_self">Imagen de Sección diaria</a></li>
+      <li type="text" class="item"><a href="pagsitefondodiario.php" target="_self">Imagen de fondo diaria</a></li>
+      <li type="text" class="pop_item"><a href="" target="_self">Contacto Web_&amp;nbsp; 13</a></li>
+      <ul>
+        <li type="text" class="item"><a href="comlis.php" target="_self">Ver Comentarios_&amp;nbsp; 5</a></li>
+        <li type="text" class="item"><a href="comreslis.php" target="_self">Consultar Respuestas_&amp;nbsp; 2</a></li>
+      
+      </ul>
+      <li type="text" class="item"><a href="infmul.php" target="_self">Código de ayuda Mp3, Video, PDF</a></li>
+    </ul>
+    <li type="text" class="pop_item"><a href="" target="_self">Contenido</a></li>
+    <ul>
+      <li type="text" class="pop_item"><a href="" target="_self">Publicaciones_&amp;nbsp; 9</a></li>
+      <ul>
+        <li type="text" class="item"><a href="not.php" target="_self">Publicaciones_&amp;nbsp; 17</a></li>
+      
+      </ul>
+    </ul>
+    <li type="text" class="pop_item"><a href="" target="_self">Productos</a></li>
+    <ul>
+      <li type="text" class="item"><a href="pro.php" target="_self">Productos_&amp;nbsp; 18</a></li>
+      <li type="text" class="item"><a href="lin.php" target="_self">Líneas de Negocio_&amp;nbsp; 6</a></li>
+    </ul>
+    <li type="text" class="pop_item"><a href="" target="_self">Mensajes</a></li>
+    <ul>
+      <li type="text" class="item"><a href="cormasspam.php" target="_self">Correo Masivo Cuentas sin Clasificar</a></li>
+      <li type="text" class="pop_item"><a href="" target="_self">Cuentas de correo sin Clasificar_&amp;nbsp; 7</a></li>
+      <ul>
+        <li type="text" class="item"><a href="spamimp.php" target="_self">Importar</a></li>
+        <li type="text" class="item"><a href="spam.php" target="_self">Administrar</a></li>
+      
+      </ul>
+    </ul>
+    <li type="text" class="pop_item"><a href="" target="_self">Compañía</a></li>
+    <ul>
+      <li type="text" class="item"><a href="info.php" target="_self">Datos Básicos_&amp;nbsp; 8</a></li>
+      <li type="text" class="item"><a href="metatags.php" target="_self">Metatags</a></li>
+    </ul>
+    <li type="text" class="pop_item"><a href="" target="_self">Usuarios</a></li>
+    <ul>
+      <li type="text" class="item"><a href="usu.php" target="_self">Usuarios del Sistema</a></li>
+      <li type="text" class="item"><a href="usureg.php" target="_self">Usuarios Registrados</a></li>
+      <li type="text" class="item"><a href="usugru.php" target="_self">Grupos de Usuario_&amp;nbsp; 4</a></li>
+      <li type="text" class="item"><a href="concam.php" target="_self">Cambiar Contraseña_&amp;nbsp; 1</a></li>
+      <li type="text" class="item"><a href="usuariosauditoria.php" target="_self">Auditoria del Sistema</a></li>
+    
+    </ul>
+  </ul>
+  <layer>
+    <setting>
+      <display>0</display>
+      <spacing>0</spacing>
+      <padding>4</padding>
+      <transparency>0</transparency>
+      <direction>0</direction>
+      <corner_x>0</corner_x>
+      <corner_y>0</corner_y>
+      <bg_color>#006600</bg_color>
+      <bg_transparent>0</bg_transparent>
+      <bg_image></bg_image>
+      <bg_tile>1</bg_tile>
+      <border_style>0</border_style>
+      <border_width>3</border_width>
+      <border_color>#000000</border_color>
+      <border_synchronize>1</border_synchronize>
+      <shadow_type>0</shadow_type>
+      <shadow_size>3</shadow_size>
+      <shadow_color>#FFFFF7</shadow_color>
+      <effect_show>0</effect_show>
+      <effect_hide>0</effect_hide>
+      <effect_speed>10</effect_speed>
+      <enable_decoration>0</enable_decoration>
+      <dr_left_top></dr_left_top>
+      <dr_left_top_lib></dr_left_top_lib>
+      <dr_left_top_corner_width>20</dr_left_top_corner_width>
+      <dr_left_top_corner_height>20</dr_left_top_corner_height>
+      <dr_left_top_color></dr_left_top_color>
+      <dr_left_top_blend>0</dr_left_top_blend>
+      <dr_left_top_light>0</dr_left_top_light>
+      <dr_right_top></dr_right_top>
+      <dr_right_top_lib></dr_right_top_lib>
+      <dr_right_top_corner_width>20</dr_right_top_corner_width>
+      <dr_right_top_corner_height>20</dr_right_top_corner_height>
+      <dr_right_top_color></dr_right_top_color>
+      <dr_right_top_blend>0</dr_right_top_blend>
+      <dr_right_top_light>0</dr_right_top_light>
+      <dr_right_bottom></dr_right_bottom>
+      <dr_right_bottom_lib></dr_right_bottom_lib>
+      <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+      <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+      <dr_right_bottom_color></dr_right_bottom_color>
+      <dr_right_bottom_blend>0</dr_right_bottom_blend>
+      <dr_right_bottom_light>0</dr_right_bottom_light>
+      <dr_left_bottom></dr_left_bottom>
+      <dr_left_bottom_lib></dr_left_bottom_lib>
+      <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+      <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+      <dr_left_bottom_color></dr_left_bottom_color>
+      <dr_left_bottom_blend>0</dr_left_bottom_blend>
+      <dr_left_bottom_light>0</dr_left_bottom_light>
+      <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+      <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+      <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+      <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+      <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+    </setting>
+    <node state="0" condition_invisible="0" advanced_disable="0">
+      <condition_prefix></condition_prefix>
+      <condition_suffix></condition_suffix>
+      <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+      <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+      <image out="" over="" width="-1" height="-1" border="0"></image>
+      <icon out="" over="" width="-1" height="0" border="0"></icon>
+      <arrow out="" over="" width="0" height="7" border="0"></arrow>
+      <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+      <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    </node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+      <condition_prefix></condition_prefix>
+      <condition_suffix></condition_suffix>
+      <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+      <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+      <image out="" over="" width="-1" height="-1" border="0"></image>
+      <icon out="" over="" width="-1" height="0" border="0"></icon>
+      <arrow out="" over="" width="0" height="7" border="0"></arrow>
+      <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+      <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+      <layer>
+        <setting>
+          <display>1</display>
+          <spacing>0</spacing>
+          <padding>2</padding>
+          <transparency>0</transparency>
+          <direction>0</direction>
+          <corner_x>0</corner_x>
+          <corner_y>0</corner_y>
+          <bg_color>#006600</bg_color>
+          <bg_transparent>0</bg_transparent>
+          <bg_image></bg_image>
+          <bg_tile>3</bg_tile>
+          <border_style>1</border_style>
+          <border_width>1</border_width>
+          <border_color>#006633</border_color>
+          <border_synchronize>1</border_synchronize>
+          <shadow_type>0</shadow_type>
+          <shadow_size>3</shadow_size>
+          <shadow_color>#FFFFF7</shadow_color>
+          <effect_show>0</effect_show>
+          <effect_hide>0</effect_hide>
+          <effect_speed>10</effect_speed>
+          <enable_decoration>0</enable_decoration>
+          <dr_left_top></dr_left_top>
+          <dr_left_top_lib></dr_left_top_lib>
+          <dr_left_top_corner_width>20</dr_left_top_corner_width>
+          <dr_left_top_corner_height>20</dr_left_top_corner_height>
+          <dr_left_top_color></dr_left_top_color>
+          <dr_left_top_blend>0</dr_left_top_blend>
+          <dr_left_top_light>0</dr_left_top_light>
+          <dr_right_top></dr_right_top>
+          <dr_right_top_lib></dr_right_top_lib>
+          <dr_right_top_corner_width>20</dr_right_top_corner_width>
+          <dr_right_top_corner_height>20</dr_right_top_corner_height>
+          <dr_right_top_color></dr_right_top_color>
+          <dr_right_top_blend>0</dr_right_top_blend>
+          <dr_right_top_light>0</dr_right_top_light>
+          <dr_right_bottom></dr_right_bottom>
+          <dr_right_bottom_lib></dr_right_bottom_lib>
+          <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+          <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+          <dr_right_bottom_color></dr_right_bottom_color>
+          <dr_right_bottom_blend>0</dr_right_bottom_blend>
+          <dr_right_bottom_light>0</dr_right_bottom_light>
+          <dr_left_bottom></dr_left_bottom>
+          <dr_left_bottom_lib></dr_left_bottom_lib>
+          <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+          <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+          <dr_left_bottom_color></dr_left_bottom_color>
+          <dr_left_bottom_blend>0</dr_left_bottom_blend>
+          <dr_left_bottom_light>0</dr_left_bottom_light>
+          <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+          <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+          <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+          <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+          <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+        </setting>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+          <condition_prefix></condition_prefix>
+          <condition_suffix></condition_suffix>
+          <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+          <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+          <image out="" over="" width="-1" height="-1" border="0"></image>
+          <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\chart_curve.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\chart_curve.png" width="-1" height="-1" border="0"></icon>
+          <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="-1" height="-1" border="0"></arrow>
+          <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+          <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        
+          <layer>
+            <setting>
+              <display>1</display>
+              <spacing>0</spacing>
+              <padding>2</padding>
+              <transparency>0</transparency>
+              <direction>0</direction>
+              <corner_x>0</corner_x>
+              <corner_y>0</corner_y>
+              <bg_color>#006600</bg_color>
+              <bg_transparent>0</bg_transparent>
+              <bg_image></bg_image>
+              <bg_tile>3</bg_tile>
+              <border_style>1</border_style>
+              <border_width>1</border_width>
+              <border_color>#006633</border_color>
+              <border_synchronize>1</border_synchronize>
+              <shadow_type>0</shadow_type>
+              <shadow_size>3</shadow_size>
+              <shadow_color>#FFFFF7</shadow_color>
+              <effect_show>0</effect_show>
+              <effect_hide>0</effect_hide>
+              <effect_speed>90</effect_speed>
+              <enable_decoration>0</enable_decoration>
+              <dr_left_top></dr_left_top>
+              <dr_left_top_lib></dr_left_top_lib>
+              <dr_left_top_corner_width>20</dr_left_top_corner_width>
+              <dr_left_top_corner_height>20</dr_left_top_corner_height>
+              <dr_left_top_color></dr_left_top_color>
+              <dr_left_top_blend>0</dr_left_top_blend>
+              <dr_left_top_light>0</dr_left_top_light>
+              <dr_right_top></dr_right_top>
+              <dr_right_top_lib></dr_right_top_lib>
+              <dr_right_top_corner_width>20</dr_right_top_corner_width>
+              <dr_right_top_corner_height>20</dr_right_top_corner_height>
+              <dr_right_top_color></dr_right_top_color>
+              <dr_right_top_blend>0</dr_right_top_blend>
+              <dr_right_top_light>0</dr_right_top_light>
+              <dr_right_bottom></dr_right_bottom>
+              <dr_right_bottom_lib></dr_right_bottom_lib>
+              <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+              <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+              <dr_right_bottom_color></dr_right_bottom_color>
+              <dr_right_bottom_blend>0</dr_right_bottom_blend>
+              <dr_right_bottom_light>0</dr_right_bottom_light>
+              <dr_left_bottom></dr_left_bottom>
+              <dr_left_bottom_lib></dr_left_bottom_lib>
+              <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+              <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+              <dr_left_bottom_color></dr_left_bottom_color>
+              <dr_left_bottom_blend>0</dr_left_bottom_blend>
+              <dr_left_bottom_light>0</dr_left_bottom_light>
+              <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+              <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+              <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+              <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+              <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+            </setting>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\statistics.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\statistics.png" width="-1" height="-1" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+            </node>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\column-chart.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\column-chart.png" width="16" height="16" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+            </node>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\globe1.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\globe1.png" width="16" height="16" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+            </node>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\globe4.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\globe4.png" width="-1" height="-1" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+            </node>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\environment.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\environment.png" width="16" height="16" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+            </node>
+        </layer></node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\media.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\media.png" width="-1" height="-1" border="0"></icon>
+            <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        </node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\document.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\document.png" width="-1" height="-1" border="0"></icon>
+            <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        </node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\folder_picture.png" over="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\folder_picture.png" width="16" height="16" border="0"></icon>
+            <arrow out="" over="" width="-1" height="-1" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        </node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\folder_palette.png" over="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\folder_palette.png" width="16" height="16" border="0"></icon>
+            <arrow out="" over="" width="-1" height="-1" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        </node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\16-comment.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\16-comment.png" width="16" height="16" border="0"></icon>
+            <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="-1" height="-1" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        
+            <layer>
+              <setting>
+                <display>1</display>
+                <spacing>0</spacing>
+                <padding>2</padding>
+                <transparency>0</transparency>
+                <direction>0</direction>
+                <corner_x>0</corner_x>
+                <corner_y>0</corner_y>
+                <bg_color>#006600</bg_color>
+                <bg_transparent>0</bg_transparent>
+                <bg_image></bg_image>
+                <bg_tile>3</bg_tile>
+                <border_style>1</border_style>
+                <border_width>1</border_width>
+                <border_color>#006633</border_color>
+                <border_synchronize>1</border_synchronize>
+                <shadow_type>0</shadow_type>
+                <shadow_size>3</shadow_size>
+                <shadow_color>#FFFFF7</shadow_color>
+                <effect_show>0</effect_show>
+                <effect_hide>0</effect_hide>
+                <effect_speed>90</effect_speed>
+                <enable_decoration>0</enable_decoration>
+                <dr_left_top></dr_left_top>
+                <dr_left_top_lib></dr_left_top_lib>
+                <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                <dr_left_top_color></dr_left_top_color>
+                <dr_left_top_blend>0</dr_left_top_blend>
+                <dr_left_top_light>0</dr_left_top_light>
+                <dr_right_top></dr_right_top>
+                <dr_right_top_lib></dr_right_top_lib>
+                <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                <dr_right_top_color></dr_right_top_color>
+                <dr_right_top_blend>0</dr_right_top_blend>
+                <dr_right_top_light>0</dr_right_top_light>
+                <dr_right_bottom></dr_right_bottom>
+                <dr_right_bottom_lib></dr_right_bottom_lib>
+                <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                <dr_right_bottom_color></dr_right_bottom_color>
+                <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                <dr_right_bottom_light>0</dr_right_bottom_light>
+                <dr_left_bottom></dr_left_bottom>
+                <dr_left_bottom_lib></dr_left_bottom_lib>
+                <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                <dr_left_bottom_color></dr_left_bottom_color>
+                <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                <dr_left_bottom_light>0</dr_left_bottom_light>
+                <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+              </setting>
+              <node state="0" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\comment3_(edit)_16x16.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\comment3_(edit)_16x16.gif" width="16" height="16" border="0"></icon>
+                <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+              </node>
+              <node state="0" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\mail_view.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\mail_view.png" width="-1" height="-1" border="0"></icon>
+                <arrow out="" over="" width="0" height="7" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+              </node>
+        </layer></node>
+        <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\bricks.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\bricks.png" width="16" height="16" border="0"></icon>
+              <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+        </node>
+    </layer></node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+        <condition_prefix></condition_prefix>
+        <condition_suffix></condition_suffix>
+        <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+        <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+        <image out="" over="" width="-1" height="-1" border="0"></image>
+        <icon out="" over="" width="-1" height="0" border="0"></icon>
+        <arrow out="" over="" width="0" height="7" border="0"></arrow>
+        <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+        <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+        <layer>
+          <setting>
+            <display>1</display>
+            <spacing>0</spacing>
+            <padding>2</padding>
+            <transparency>0</transparency>
+            <direction>0</direction>
+            <corner_x>0</corner_x>
+            <corner_y>0</corner_y>
+            <bg_color>#006600</bg_color>
+            <bg_transparent>0</bg_transparent>
+            <bg_image></bg_image>
+            <bg_tile>3</bg_tile>
+            <border_style>1</border_style>
+            <border_width>1</border_width>
+            <border_color>#006633</border_color>
+            <border_synchronize>1</border_synchronize>
+            <shadow_type>0</shadow_type>
+            <shadow_size>3</shadow_size>
+            <shadow_color>#FFFFF7</shadow_color>
+            <effect_show>0</effect_show>
+            <effect_hide>0</effect_hide>
+            <effect_speed>10</effect_speed>
+            <enable_decoration>0</enable_decoration>
+            <dr_left_top></dr_left_top>
+            <dr_left_top_lib></dr_left_top_lib>
+            <dr_left_top_corner_width>20</dr_left_top_corner_width>
+            <dr_left_top_corner_height>20</dr_left_top_corner_height>
+            <dr_left_top_color></dr_left_top_color>
+            <dr_left_top_blend>0</dr_left_top_blend>
+            <dr_left_top_light>0</dr_left_top_light>
+            <dr_right_top></dr_right_top>
+            <dr_right_top_lib></dr_right_top_lib>
+            <dr_right_top_corner_width>20</dr_right_top_corner_width>
+            <dr_right_top_corner_height>20</dr_right_top_corner_height>
+            <dr_right_top_color></dr_right_top_color>
+            <dr_right_top_blend>0</dr_right_top_blend>
+            <dr_right_top_light>0</dr_right_top_light>
+            <dr_right_bottom></dr_right_bottom>
+            <dr_right_bottom_lib></dr_right_bottom_lib>
+            <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+            <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+            <dr_right_bottom_color></dr_right_bottom_color>
+            <dr_right_bottom_blend>0</dr_right_bottom_blend>
+            <dr_right_bottom_light>0</dr_right_bottom_light>
+            <dr_left_bottom></dr_left_bottom>
+            <dr_left_bottom_lib></dr_left_bottom_lib>
+            <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+            <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+            <dr_left_bottom_color></dr_left_bottom_color>
+            <dr_left_bottom_blend>0</dr_left_bottom_blend>
+            <dr_left_bottom_light>0</dr_left_bottom_light>
+            <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+            <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+            <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+            <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+            <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+          </setting>
+          <node state="0" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\book_open.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\book_open.png" width="16" height="16" border="0"></icon>
+            <arrow out="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\mundohogar\diseño\arrow_r.gif" width="-1" height="-1" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+          
+            <layer>
+              <setting>
+                <display>1</display>
+                <spacing>0</spacing>
+                <padding>2</padding>
+                <transparency>0</transparency>
+                <direction>0</direction>
+                <corner_x>0</corner_x>
+                <corner_y>0</corner_y>
+                <bg_color>#006600</bg_color>
+                <bg_transparent>0</bg_transparent>
+                <bg_image></bg_image>
+                <bg_tile>3</bg_tile>
+                <border_style>1</border_style>
+                <border_width>1</border_width>
+                <border_color>#006633</border_color>
+                <border_synchronize>1</border_synchronize>
+                <shadow_type>0</shadow_type>
+                <shadow_size>3</shadow_size>
+                <shadow_color>#FFFFF7</shadow_color>
+                <effect_show>0</effect_show>
+                <effect_hide>0</effect_hide>
+                <effect_speed>90</effect_speed>
+                <enable_decoration>0</enable_decoration>
+                <dr_left_top></dr_left_top>
+                <dr_left_top_lib></dr_left_top_lib>
+                <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                <dr_left_top_color></dr_left_top_color>
+                <dr_left_top_blend>0</dr_left_top_blend>
+                <dr_left_top_light>0</dr_left_top_light>
+                <dr_right_top></dr_right_top>
+                <dr_right_top_lib></dr_right_top_lib>
+                <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                <dr_right_top_color></dr_right_top_color>
+                <dr_right_top_blend>0</dr_right_top_blend>
+                <dr_right_top_light>0</dr_right_top_light>
+                <dr_right_bottom></dr_right_bottom>
+                <dr_right_bottom_lib></dr_right_bottom_lib>
+                <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                <dr_right_bottom_color></dr_right_bottom_color>
+                <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                <dr_right_bottom_light>0</dr_right_bottom_light>
+                <dr_left_bottom></dr_left_bottom>
+                <dr_left_bottom_lib></dr_left_bottom_lib>
+                <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                <dr_left_bottom_color></dr_left_bottom_color>
+                <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                <dr_left_bottom_light>0</dr_left_bottom_light>
+                <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+              </setting>
+              <node state="0" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\note_add.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\note_add.png" width="16" height="16" border="0"></icon>
+                <arrow out="" over="" width="-1" height="-1" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="1" out_color="#99CC66" out_synchronize="1" over_color="#000000" over_synchronize="0"></border>
+              </node>
+          </layer></node>
+    </layer></node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+          <condition_prefix></condition_prefix>
+          <condition_suffix></condition_suffix>
+          <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+          <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+          <image out="" over="" width="-1" height="-1" border="0"></image>
+          <icon out="" over="" width="-1" height="0" border="0"></icon>
+          <arrow out="" over="" width="0" height="-1" border="0"></arrow>
+          <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+          <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+          <layer>
+            <setting>
+              <display>1</display>
+              <spacing>0</spacing>
+              <padding>2</padding>
+              <transparency>0</transparency>
+              <direction>0</direction>
+              <corner_x>0</corner_x>
+              <corner_y>0</corner_y>
+              <bg_color>#006600</bg_color>
+              <bg_transparent>0</bg_transparent>
+              <bg_image></bg_image>
+              <bg_tile>3</bg_tile>
+              <border_style>1</border_style>
+              <border_width>1</border_width>
+              <border_color>#006633</border_color>
+              <border_synchronize>1</border_synchronize>
+              <shadow_type>0</shadow_type>
+              <shadow_size>3</shadow_size>
+              <shadow_color>#FFFFF7</shadow_color>
+              <effect_show>0</effect_show>
+              <effect_hide>0</effect_hide>
+              <effect_speed>10</effect_speed>
+              <enable_decoration>0</enable_decoration>
+              <dr_left_top></dr_left_top>
+              <dr_left_top_lib></dr_left_top_lib>
+              <dr_left_top_corner_width>20</dr_left_top_corner_width>
+              <dr_left_top_corner_height>20</dr_left_top_corner_height>
+              <dr_left_top_color></dr_left_top_color>
+              <dr_left_top_blend>0</dr_left_top_blend>
+              <dr_left_top_light>0</dr_left_top_light>
+              <dr_right_top></dr_right_top>
+              <dr_right_top_lib></dr_right_top_lib>
+              <dr_right_top_corner_width>20</dr_right_top_corner_width>
+              <dr_right_top_corner_height>20</dr_right_top_corner_height>
+              <dr_right_top_color></dr_right_top_color>
+              <dr_right_top_blend>0</dr_right_top_blend>
+              <dr_right_top_light>0</dr_right_top_light>
+              <dr_right_bottom></dr_right_bottom>
+              <dr_right_bottom_lib></dr_right_bottom_lib>
+              <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+              <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+              <dr_right_bottom_color></dr_right_bottom_color>
+              <dr_right_bottom_blend>0</dr_right_bottom_blend>
+              <dr_right_bottom_light>0</dr_right_bottom_light>
+              <dr_left_bottom></dr_left_bottom>
+              <dr_left_bottom_lib></dr_left_bottom_lib>
+              <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+              <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+              <dr_left_bottom_color></dr_left_bottom_color>
+              <dr_left_bottom_blend>0</dr_left_bottom_blend>
+              <dr_left_bottom_light>0</dr_left_bottom_light>
+              <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+              <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+              <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+              <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+              <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+            </setting>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\cart_full.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\cart_full.png" width="-1" height="-1" border="0"></icon>
+              <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+            </node>
+            <node state="0" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\content.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\content.png" width="-1" height="-1" border="0"></icon>
+              <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="-1" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+            </node>
+    </layer></node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+            <condition_prefix></condition_prefix>
+            <condition_suffix></condition_suffix>
+            <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+            <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+            <image out="" over="" width="-1" height="-1" border="0"></image>
+            <icon out="" over="" width="-1" height="0" border="0"></icon>
+            <arrow out="" over="" width="0" height="7" border="0"></arrow>
+            <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+            <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+            <layer>
+              <setting>
+                <display>1</display>
+                <spacing>0</spacing>
+                <padding>2</padding>
+                <transparency>0</transparency>
+                <direction>0</direction>
+                <corner_x>0</corner_x>
+                <corner_y>0</corner_y>
+                <bg_color>#006600</bg_color>
+                <bg_transparent>0</bg_transparent>
+                <bg_image></bg_image>
+                <bg_tile>3</bg_tile>
+                <border_style>1</border_style>
+                <border_width>1</border_width>
+                <border_color>#006633</border_color>
+                <border_synchronize>1</border_synchronize>
+                <shadow_type>0</shadow_type>
+                <shadow_size>0</shadow_size>
+                <shadow_color>#FFFFF7</shadow_color>
+                <effect_show>0</effect_show>
+                <effect_hide>0</effect_hide>
+                <effect_speed>10</effect_speed>
+                <enable_decoration>0</enable_decoration>
+                <dr_left_top></dr_left_top>
+                <dr_left_top_lib></dr_left_top_lib>
+                <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                <dr_left_top_color></dr_left_top_color>
+                <dr_left_top_blend>0</dr_left_top_blend>
+                <dr_left_top_light>0</dr_left_top_light>
+                <dr_right_top></dr_right_top>
+                <dr_right_top_lib></dr_right_top_lib>
+                <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                <dr_right_top_color></dr_right_top_color>
+                <dr_right_top_blend>0</dr_right_top_blend>
+                <dr_right_top_light>0</dr_right_top_light>
+                <dr_right_bottom></dr_right_bottom>
+                <dr_right_bottom_lib></dr_right_bottom_lib>
+                <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                <dr_right_bottom_color></dr_right_bottom_color>
+                <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                <dr_right_bottom_light>0</dr_right_bottom_light>
+                <dr_left_bottom></dr_left_bottom>
+                <dr_left_bottom_lib></dr_left_bottom_lib>
+                <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                <dr_left_bottom_color></dr_left_bottom_color>
+                <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                <dr_left_bottom_light>0</dr_left_bottom_light>
+                <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+              </setting>
+              <node state="0" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\email_go.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\email_go.png" width="16" height="16" border="0"></icon>
+                <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="-1" height="-1" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+              </node>
+              <node state="0" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\report_user.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\report_user.png" width="16" height="16" border="0"></icon>
+                <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="-1" height="-1" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+              
+                <layer>
+                  <setting>
+                    <display>1</display>
+                    <spacing>0</spacing>
+                    <padding>2</padding>
+                    <transparency>0</transparency>
+                    <direction>0</direction>
+                    <corner_x>0</corner_x>
+                    <corner_y>0</corner_y>
+                    <bg_color>#006600</bg_color>
+                    <bg_transparent>0</bg_transparent>
+                    <bg_image></bg_image>
+                    <bg_tile>3</bg_tile>
+                    <border_style>1</border_style>
+                    <border_width>1</border_width>
+                    <border_color>#006633</border_color>
+                    <border_synchronize>1</border_synchronize>
+                    <shadow_type>0</shadow_type>
+                    <shadow_size>0</shadow_size>
+                    <shadow_color>#FFFFF7</shadow_color>
+                    <effect_show>0</effect_show>
+                    <effect_hide>0</effect_hide>
+                    <effect_speed>10</effect_speed>
+                    <enable_decoration>0</enable_decoration>
+                    <dr_left_top></dr_left_top>
+                    <dr_left_top_lib></dr_left_top_lib>
+                    <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                    <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                    <dr_left_top_color></dr_left_top_color>
+                    <dr_left_top_blend>0</dr_left_top_blend>
+                    <dr_left_top_light>0</dr_left_top_light>
+                    <dr_right_top></dr_right_top>
+                    <dr_right_top_lib></dr_right_top_lib>
+                    <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                    <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                    <dr_right_top_color></dr_right_top_color>
+                    <dr_right_top_blend>0</dr_right_top_blend>
+                    <dr_right_top_light>0</dr_right_top_light>
+                    <dr_right_bottom></dr_right_bottom>
+                    <dr_right_bottom_lib></dr_right_bottom_lib>
+                    <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                    <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                    <dr_right_bottom_color></dr_right_bottom_color>
+                    <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                    <dr_right_bottom_light>0</dr_right_bottom_light>
+                    <dr_left_bottom></dr_left_bottom>
+                    <dr_left_bottom_lib></dr_left_bottom_lib>
+                    <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                    <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                    <dr_left_bottom_color></dr_left_bottom_color>
+                    <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                    <dr_left_bottom_light>0</dr_left_bottom_light>
+                    <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                    <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                    <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                    <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                    <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+                  </setting>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\backup.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\backup.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\users.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\users.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+              </layer></node>
+    </layer></node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+              <condition_prefix></condition_prefix>
+              <condition_suffix></condition_suffix>
+              <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+              <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+              <image out="" over="" width="-1" height="-1" border="0"></image>
+              <icon out="" over="" width="-1" height="0" border="0"></icon>
+              <arrow out="" over="" width="0" height="7" border="0"></arrow>
+              <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+              <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+              <layer>
+                <setting>
+                  <display>1</display>
+                  <spacing>0</spacing>
+                  <padding>2</padding>
+                  <transparency>0</transparency>
+                  <direction>0</direction>
+                  <corner_x>0</corner_x>
+                  <corner_y>0</corner_y>
+                  <bg_color>#006600</bg_color>
+                  <bg_transparent>0</bg_transparent>
+                  <bg_image></bg_image>
+                  <bg_tile>3</bg_tile>
+                  <border_style>1</border_style>
+                  <border_width>1</border_width>
+                  <border_color>#006633</border_color>
+                  <border_synchronize>1</border_synchronize>
+                  <shadow_type>0</shadow_type>
+                  <shadow_size>0</shadow_size>
+                  <shadow_color>#FFFFF7</shadow_color>
+                  <effect_show>0</effect_show>
+                  <effect_hide>0</effect_hide>
+                  <effect_speed>10</effect_speed>
+                  <enable_decoration>0</enable_decoration>
+                  <dr_left_top></dr_left_top>
+                  <dr_left_top_lib></dr_left_top_lib>
+                  <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                  <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                  <dr_left_top_color></dr_left_top_color>
+                  <dr_left_top_blend>0</dr_left_top_blend>
+                  <dr_left_top_light>0</dr_left_top_light>
+                  <dr_right_top></dr_right_top>
+                  <dr_right_top_lib></dr_right_top_lib>
+                  <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                  <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                  <dr_right_top_color></dr_right_top_color>
+                  <dr_right_top_blend>0</dr_right_top_blend>
+                  <dr_right_top_light>0</dr_right_top_light>
+                  <dr_right_bottom></dr_right_bottom>
+                  <dr_right_bottom_lib></dr_right_bottom_lib>
+                  <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                  <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                  <dr_right_bottom_color></dr_right_bottom_color>
+                  <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                  <dr_right_bottom_light>0</dr_right_bottom_light>
+                  <dr_left_bottom></dr_left_bottom>
+                  <dr_left_bottom_lib></dr_left_bottom_lib>
+                  <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                  <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                  <dr_left_bottom_color></dr_left_bottom_color>
+                  <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                  <dr_left_bottom_light>0</dr_left_bottom_light>
+                  <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                  <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                  <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                  <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                  <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+                </setting>
+                <node state="0" condition_invisible="0" advanced_disable="0">
+                  <condition_prefix></condition_prefix>
+                  <condition_suffix></condition_suffix>
+                  <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                  <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                  <image out="" over="" width="-1" height="-1" border="0"></image>
+                  <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\document_edit.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\document_edit.png" width="-1" height="-1" border="0"></icon>
+                  <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                  <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                  <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                </node>
+                <node state="0" condition_invisible="0" advanced_disable="0">
+                  <condition_prefix></condition_prefix>
+                  <condition_suffix></condition_suffix>
+                  <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                  <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                  <image out="" over="" width="-1" height="-1" border="0"></image>
+                  <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\report_magnify.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\administrador\componentes\report_magnify.png" width="16" height="16" border="0"></icon>
+                  <arrow out="" over="" width="-1" height="-1" border="0"></arrow>
+                  <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                  <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                </node>
+    </layer></node>
+    <node state="2" condition_invisible="0" advanced_disable="0">
+                <condition_prefix></condition_prefix>
+                <condition_suffix></condition_suffix>
+                <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                <image out="" over="" width="-1" height="-1" border="0"></image>
+                <icon out="" over="" width="-1" height="0" border="0"></icon>
+                <arrow out="" over="" width="0" height="7" border="0"></arrow>
+                <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+    
+                <layer>
+                  <setting>
+                    <display>1</display>
+                    <spacing>0</spacing>
+                    <padding>2</padding>
+                    <transparency>0</transparency>
+                    <direction>0</direction>
+                    <corner_x>0</corner_x>
+                    <corner_y>0</corner_y>
+                    <bg_color>#006600</bg_color>
+                    <bg_transparent>0</bg_transparent>
+                    <bg_image></bg_image>
+                    <bg_tile>3</bg_tile>
+                    <border_style>1</border_style>
+                    <border_width>1</border_width>
+                    <border_color>#006633</border_color>
+                    <border_synchronize>1</border_synchronize>
+                    <shadow_type>0</shadow_type>
+                    <shadow_size>0</shadow_size>
+                    <shadow_color>#FFFFF7</shadow_color>
+                    <effect_show>0</effect_show>
+                    <effect_hide>0</effect_hide>
+                    <effect_speed>10</effect_speed>
+                    <enable_decoration>0</enable_decoration>
+                    <dr_left_top></dr_left_top>
+                    <dr_left_top_lib></dr_left_top_lib>
+                    <dr_left_top_corner_width>20</dr_left_top_corner_width>
+                    <dr_left_top_corner_height>20</dr_left_top_corner_height>
+                    <dr_left_top_color></dr_left_top_color>
+                    <dr_left_top_blend>0</dr_left_top_blend>
+                    <dr_left_top_light>0</dr_left_top_light>
+                    <dr_right_top></dr_right_top>
+                    <dr_right_top_lib></dr_right_top_lib>
+                    <dr_right_top_corner_width>20</dr_right_top_corner_width>
+                    <dr_right_top_corner_height>20</dr_right_top_corner_height>
+                    <dr_right_top_color></dr_right_top_color>
+                    <dr_right_top_blend>0</dr_right_top_blend>
+                    <dr_right_top_light>0</dr_right_top_light>
+                    <dr_right_bottom></dr_right_bottom>
+                    <dr_right_bottom_lib></dr_right_bottom_lib>
+                    <dr_right_bottom_corner_width>20</dr_right_bottom_corner_width>
+                    <dr_right_bottom_corner_height>20</dr_right_bottom_corner_height>
+                    <dr_right_bottom_color></dr_right_bottom_color>
+                    <dr_right_bottom_blend>0</dr_right_bottom_blend>
+                    <dr_right_bottom_light>0</dr_right_bottom_light>
+                    <dr_left_bottom></dr_left_bottom>
+                    <dr_left_bottom_lib></dr_left_bottom_lib>
+                    <dr_left_bottom_corner_width>20</dr_left_bottom_corner_width>
+                    <dr_left_bottom_corner_height>20</dr_left_bottom_corner_height>
+                    <dr_left_bottom_color></dr_left_bottom_color>
+                    <dr_left_bottom_blend>0</dr_left_bottom_blend>
+                    <dr_left_bottom_light>0</dr_left_bottom_light>
+                    <dr_top img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_top>
+                    <dr_right img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_right>
+                    <dr_bottom img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_bottom>
+                    <dr_left img_path="" img_height="-1" img_width="-1" bg_img="" bg_img_lib="" bg_img_color="" bg_img_blend="0" bg_img_light="0" bg_color="#FFFFF7" bg_transparent="0" bg_tile="3"></dr_left>
+                    <multi_column mc_enable="0" mc_number="2" sepa_color="#000000" sepa_transparent="0" sepa_thickness="1" sepa_img="" sepa_img_tile="3"></multi_column>
+                  </setting>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1.png" width="20" height="20" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_monitor.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_monitor.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\users2.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\users2.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+                  <node state="0" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_preferences.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_preferences.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\arrow_r.gif" width="7" height="7" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+                  <node state="1" condition_invisible="0" advanced_disable="0">
+                    <condition_prefix></condition_prefix>
+                    <condition_suffix></condition_suffix>
+                    <general width="0" height="0" type="0" align_h="0" align_v="1" tip_text="" status="" status_default="1"></general>
+                    <font out_face="Verdana" out_color="#333333" out_size="8" out_size_unit="0" out_decoration="0" over_face="Verdana" over_color="#333333" over_size="8" over_size_unit="0" over_decoration="0"></font>
+                    <image out="" over="" width="-1" height="-1" border="0"></image>
+                    <icon out="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_preferences.png" over="C:\Program Files\EasyPHP 2.0b1\www\inca\diseño\user1_preferences.png" width="-1" height="-1" border="0"></icon>
+                    <arrow out="" over="" width="-1" height="-1" border="0"></arrow>
+                    <background out_color="#99CC66" out_transparent="0" out_image="" out_image_left="" out_image_right="" out_tile="3" over_color="#FFFFFF" over_transparent="0" over_image="" over_image_left="" over_image_right="" left_image_max_with="0" right_image_max_with="0" image_max_height="0" over_tile="3"></background>
+                    <border style="1" width="0" out_color="#FFFFF7" out_synchronize="0" over_color="#000000" over_synchronize="0"></border>
+                  </node>
+    </layer></node></layer>
+    
+  <cross_frame>
+    <created>0</created>
+    <direction>0</direction>
+    <coor_x>0</coor_x>
+    <coor_y>0</coor_y>
+    <iframe>0</iframe>
+    <navigate_frame>Navigation_frame</navigate_frame>
+    <content_frame>Main_frame</content_frame>
+    <show_in_navigation>1</show_in_navigation>
+  </cross_frame>
+  <scroll_h>
+    <enable_scroll>0</enable_scroll>
+    <enable_custom>0</enable_custom>
+    <custom_size>1</custom_size>
+    <bg_out_color>#FFFFF7</bg_out_color>
+    <bg_out_transparent>1</bg_out_transparent>
+    <bg_out_image></bg_out_image>
+    <bg_out_tile>3</bg_out_tile>
+    <bg_over_color>#B5BED6</bg_over_color>
+    <bg_over_transparent>1</bg_over_transparent>
+    <bg_over_image></bg_over_image>
+    <bg_over_tile>3</bg_over_tile>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <border_out_color>#FFFFF7</border_out_color>
+    <border_out_synchronize>1</border_out_synchronize>
+    <border_over_color>#000000</border_over_color>
+    <border_over_synchronize>1</border_over_synchronize>
+    <arrow_lu_enable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\left_disabled.gif</arrow_lu_enable>
+    <arrow_lu_disable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\left_enabled.gif</arrow_lu_disable>
+    <arrow_lu_width>-1</arrow_lu_width>
+    <arrow_lu_height>-1</arrow_lu_height>
+    <arrow_lu_border>0</arrow_lu_border>
+    <arrow_rd_enable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\right_disabled.gif</arrow_rd_enable>
+    <arrow_rd_disable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\right_enabled.gif</arrow_rd_disable>
+    <arrow_rd_width>-1</arrow_rd_width>
+    <arrow_rd_height>-1</arrow_rd_height>
+    <arrow_rd_border>0</arrow_rd_border>
+  </scroll_h>
+  <scroll_v>
+    <enable_scroll>0</enable_scroll>
+    <enable_custom>0</enable_custom>
+    <custom_size>1</custom_size>
+    <bg_out_color>#FFFFF7</bg_out_color>
+    <bg_out_transparent>1</bg_out_transparent>
+    <bg_out_image></bg_out_image>
+    <bg_out_tile>3</bg_out_tile>
+    <bg_over_color>#B5BED6</bg_over_color>
+    <bg_over_transparent>1</bg_over_transparent>
+    <bg_over_image></bg_over_image>
+    <bg_over_tile>3</bg_over_tile>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <border_out_color>#FFFFF7</border_out_color>
+    <border_out_synchronize>1</border_out_synchronize>
+    <border_over_color>#000000</border_over_color>
+    <border_over_synchronize>1</border_over_synchronize>
+    <arrow_lu_enable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\up_disabled.gif</arrow_lu_enable>
+    <arrow_lu_disable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\up_enabled.gif</arrow_lu_disable>
+    <arrow_lu_width>-1</arrow_lu_width>
+    <arrow_lu_height>-1</arrow_lu_height>
+    <arrow_lu_border>0</arrow_lu_border>
+    <arrow_rd_enable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\down_disabled.gif</arrow_rd_enable>
+    <arrow_rd_disable>C:\Program Files\SourceTec\Sothink DHTML Menu 9\Resource\down_enabled.gif</arrow_rd_disable>
+    <arrow_rd_width>-1</arrow_rd_width>
+    <arrow_rd_height>-1</arrow_rd_height>
+    <arrow_rd_border>0</arrow_rd_border>
+  </scroll_v>
+  
+</sothink_menu>

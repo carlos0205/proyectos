@@ -1,0 +1,276 @@
+<?php
+session_start();
+include("general/conexion.php") ;
+include("general/sesion.php");
+sesion(1);
+
+// fucion validar permisos de acceso a programa
+require 'general/permisos.php';
+$prog = 'concam.php';
+$usu = $_SESSION["usuario"];
+permisos($usu, $prog);
+
+$enlace = enlace();
+?>
+<html><!-- InstanceBegin template="/Templates/admcon.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<script type="text/javascript" language="JavaScript1.2" src="../js/stm31.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Admin-Web</title>
+<SCRIPT type="text/javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Begin
+<!--
+function valida_datos(){
+	var invalid = " "; // Invalid character is a space
+	
+	var con = document.form1.txtcon.value;
+	var con1 = document.form1.txtcon1.value;
+	var usu = document.form1.txtusu.value;
+	var mm = con.length;
+	var usu1 =usu.length;
+		
+		
+	if(mm < 8) {
+		alert("La contraseña debe ser mínimo de 8 caracteres");
+		document.form1.txtcon.value = "";
+		document.form1.txtcon.focus();
+		return false;
+		exit();
+		}
+	
+	if (document.form1.txtcon.value.indexOf(invalid) > -1) {
+		alert("No se permiten espacios en la contraseña.");
+		document.form1.txtcon.value="";
+		document.form1.txtcon.focus();
+		return false;
+		exit();
+		}
+		
+	if (con != con1){
+	alert("Las contraseñas no coinciden");
+	document.form1.txtcon.value="";
+	document.form1.txtcon1.value="";
+	document.form1.txtcon.focus();
+	return false;
+	exit();
+	}
+	if (con == usu){
+	alert("El nombre de Usuario y la Contraseña deben ser diferentes");
+	document.form1.txtcon.value="";
+	document.form1.txtcon1.value="";
+	document.form1.txtcon.focus();
+	return false;
+	}
+		
+	else {
+	return true;
+	}
+}
+//-->
+//  End -->
+</script>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="../css/contenido.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+background-image:url(../images/fondomacaw.jpg);
+background-position:center;
+background-attachment:fixed;
+
+}
+-->
+</style>
+
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 400px ">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="300" height="49" valign="top" bgcolor="#000000"><img src="../images/encabezado.png" width="300" height="49" /></td>
+    <td width="100%" valign="bottom" bgcolor="#000000" class="textogris" style="background-image:url(../images/fon_adm.png)"><div align="right"><a href="general/cerrar_sesion.php"><img src="../images/cerses.png" alt="Cerrar Ses&oacute;n de Usuario" width="150" height="32" border="0" /></a></div></td>
+  </tr>
+  <tr>
+    <td height="19" colspan="2" valign="top" bgcolor="#F5F5F5"><?php if ($_SESSION["grupo"] == 1){ ?><script type="text/javascript" language="JavaScript1.2" src="../js/mnusuperadm.js"></script><?php }else{ ?><script type="text/javascript" language="JavaScript1.2" src="../js/mnuadm.js"></script><?php } ?></td>
+  </tr>
+  <tr>
+    <td height="313" colspan="2" valign="top"><!-- InstanceBeginEditable name="contenido" -->
+	  <form id="form1" name="form1" method="post" action=""  onSubmit="" enctype="multipart/form-data">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td height="61" colspan="3" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="textonegro">
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="5" height="20"></td>
+                  <td width="983">&nbsp;</td>
+                  <td width="23"></td>
+                  <td width="57" rowspan="3" align="center" valign="middle"><button class="textonegro"   name="aplicarno" type="submit" value="aplicarno" style="margin: 0px; background-color: transparent; border: none;cursor: pointer;"  onClick=""><img width="32" src="../images/aplicar.png"  /><br>
+                  Aplicar</button></td>
+                  <td width="75" rowspan="3" align="center" valign="middle" class="textonegro"><button class="textonegro" name="cancelarno" type="submit" value="cancelar" style="margin: 0px; background-color: transparent; border: none;cursor: pointer;"><img src="../images/cancelar.png" width="32" height="32"  /><br>
+                  Cancelar</button></td>
+                  <td width="9"></td>
+            </tr>
+            <tr>
+              <td height="15"></td>
+              <td valign="top" >Usuario: <?php echo $_SESSION["logueado"]?></td>
+                  <td></td>
+              <td></td>
+            </tr>
+            
+            
+            <tr>
+              <td height="26" colspan="2" valign="top" class="textoerror"><div align="right">
+                <?php
+
+				//boton cambiar contraseña
+				if (isset($_POST['aplicarno'])){
+					$usuario=$_SESSION["enlineaadm"];
+					$conact = md5($_POST["txtconact"]);
+					$qryconact = "SELECT codusuadm FROM usuadm WHERE codusuadm = '$usuario' AND pasusu='$conact'";
+					$resconact = mysql_query($qryconact, $enlace);
+					$numconact = mysql_num_rows($resconact);
+					if ($numconact > 0){
+						$con = md5($_POST["txtcon"]);
+						
+						//actualizo contraseña de usuario	
+						$qryusuact = "UPDATE usuadm SET pasusu = '$con' WHERE codusuadm = '$usuario' ";
+						$resusuact = mysql_query($qryusuact, $enlace);
+						echo "La contraseña se actualizó de manera exitosa.";
+					}else{
+						echo "¡La contraseña actual es incorrecta!";
+					}
+				}
+				 
+				//boton cancelar cambios
+				if (isset($_POST['cancelarno'])){
+					echo '<script language = JavaScript>
+					location = "index1.php";
+					</script>';
+				}
+				 ?>                
+              </div></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+            </tr>
+            
+              </table></td>
+        </tr>
+        <tr>
+          <td width="4" height="25">&nbsp;</td>
+          <td width="1039">&nbsp;</td>
+          <td width="9">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td height="52">&nbsp;</td>
+          <td colspan="2" valign="top"><table style="width: 100%" border="0" cellpadding="0" cellspacing="0">
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="1390" height="52" valign="top" class="titulos"><img src="../images/cambiopw.png" width="48" height="48" align="absmiddle" /> Cambio de contrase&ntilde;a    <strong>
+                <script type="text/javascript" language="JavaScript" src="general/validaform.js"></script>
+                </strong></td>
+                </tr>
+              </table></td>
+          </tr>
+        <tr>
+          <td height="223">&nbsp;</td>
+          <td valign="top"><table width="58%" height="205" border="0" cellpadding="0" cellspacing="0" bgcolor="#F5F5F5" class="marcotabla" style="width: 100%">
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="4" height="13"></td>
+                  <td width="107"></td>
+                  <td width="46"></td>
+                  <td width="768"></td>
+                  <td width="163"></td>
+                </tr>
+            <tr>
+              <td height="22"></td>
+                <td valign="top" >Nombre Usuario  </td>
+                  <td colspan="2" valign="top" class="titmenu"><input name="txtusu" type="text" id="txtusu" value="<?php echo $usu; ?>" readonly="readonly"></td>
+                  <td>&nbsp;</td>
+                </tr>
+            <tr>
+              <td height="20"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="21"></td>
+                <td colspan="3" valign="middle" bgcolor="#FFFF99">CAMBIAR CONTRASE&Ntilde;A </span></td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="19"></td>
+                <td colspan="3" valign="top"><span class="titmenu">La contrase&ntilde;a debe ser m&iacute;nimo 8 caracteres</span></td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="26">&nbsp;</td>
+                <td colspan="2" valign="top" >Contrase&ntilde;a Actual </td>
+                <td valign="top">
+                  <input name="txtconact" type="password" id="txtconact" size="30"maxlength="10" />
+                  </span></td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="5"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            <tr>
+              <td height="22"></td>
+                <td colspan="2" valign="top">Contrase&ntilde;a </span></td>
+                <td valign="top">
+                  <input name="txtcon" type="password" id="txtcon" size="30"maxlength="10" />
+                  </span></td>
+                <td></td>
+              </tr>
+            
+            <tr>
+              <td height="13"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="22"></td>
+                <td colspan="2" valign="top">Repetir Contrase&ntilde;a</span></td>
+                <td valign="top">
+                  <input name="txtcon1" type="password" id="txtcon1" size="30"maxlength="10" />
+                  </span></td>
+                <td></td>
+                </tr>
+            <tr>
+              <td height="20"></td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+		</form>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  
+  <tr>
+    <td height="32" colspan="2" valign="top"><div align="center" class="textonegro"><img src="../images/guacamayo.png" width="40" height="81" align="middle">  <strong>ADMIN-WEB</strong> , </div></td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

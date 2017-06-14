@@ -1,0 +1,1 @@
+var isInIFrame=window.location!=window.parent.location?true:false;if(window.opener!=null)var isPopup=window.opener.name!=window.name?true:false;else var isPopup=false;if(document.cookie.indexOf("feedback")>=0)var isCookie=true;else var isCookie=false;if(!isInIFrame&&!isPopup&&!isCookie)window.jQuery||document.write('<script src="/js/minimizados/jquery.js"><\/script>');

@@ -1,0 +1,2630 @@
+BODY {
+
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #b1b8bc; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: tahoma, Arial, Helvetica, sans-serif; COLOR: #fff; FONT-SIZE: 11px; PADDING-TOP: 0px
+
+}
+
+/*DIV.total {
+
+	TEXT-ALIGN: center; WIDTH: 100%; FLOAT: none
+
+}
+
+DIV.interno {
+
+	POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 680px
+
+}
+
+DIV.bg {
+
+	POSITION: relative; WIDTH: 954px; BACKGROUND: url(/img/bg.gif) #06334b repeat-y right top; FLOAT: left
+
+}
+
+DIV.medio {
+
+	POSITION: relative; TEXT-ALIGN: left; WIDTH: 100%; COLOR: #052739
+
+}
+
+DIV.medio DIV.derecha {
+
+	POSITION: relative; WIDTH: 790px; FLOAT: right
+
+}
+
+DIV.medio DIV.derecha DIV.contenidos {
+
+	POSITION: relative; MARGIN: 10px 0px 10px 10px; WIDTH: 680px; FLOAT: left; OVERFLOW: hidden
+
+}
+
+* HTML DIV.medio DIV.derecha DIV.contenidos {
+
+	
+
+}
+
+DIV.medio DIV.derecha DIV.barra_derecha {
+
+	POSITION: relative; MARGIN: 10px 0px 0px 10px; WIDTH: 150px; FLOAT: right; RIGHT: 10px
+
+}
+
+DIV.medio DIV.izquierda {
+
+	POSITION: relative; WIDTH: 170px; FLOAT: left; COLOR: #fff
+
+}
+
+DIV.medio DIV.izquierda DIV.margenes {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 150px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.firma {
+
+	POSITION: relative; TEXT-ALIGN: right; BACKGROUND-COLOR: #052739; WIDTH: 100%; FLOAT: right; HEIGHT: 25px; CLEAR: both
+
+}
+
+DIV.header {
+
+	POSITION: relative; BACKGROUND-COLOR: #0d3a4f; WIDTH: 100%; FLOAT: left
+
+}
+
+DIV.header DIV.logo {
+
+	POSITION: relative; FLOAT: left
+
+}
+
+DIV.header DIV.banner {
+
+	Z-INDEX: 2; POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 468px; PADDING-RIGHT: 9px; HEIGHT: 60px; PADDING-TOP: 9px; LEFT: 483px
+
+}
+
+DIV.header DIV.barra {
+
+	POSITION: relative; TEXT-ALIGN: left; LINE-HEIGHT: 24px; WIDTH: 100%; FLOAT: left; CLEAR: left
+
+}
+
+DIV.header DIV.barra DIV.leyenda {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 100px; WIDTH: 400px; PADDING-RIGHT: 0px; FONT-FAMILY: Helvetica, Tahoma, Arial; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 0px
+
+}
+
+DIV.header DIV.barra DIV.leyenda STRONG {
+
+	COLOR: #66cc00; FONT-WEIGHT: normal
+
+}
+
+DIV.fecha_idioma {
+
+	POSITION: relative; TEXT-ALIGN: right; WIDTH: 400px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #66cc00
+
+}
+
+DIV.fecha_idioma A.p {
+
+	PADDING-LEFT: 24px; BACKGROUND: url(/img/idiomas_uk.gif) no-repeat left 2px; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+DIV.fecha_idioma A.i {
+
+	PADDING-LEFT: 24px; BACKGROUND: url(/img/idiomas_uk.gif) no-repeat left 2px; COLOR: #fff; TEXT-DECORATION: none
+
+}*/
+
+
+DIV.botonera_corredores {
+
+	Z-INDEX: 3; POSITION: relative; TEXT-ALIGN: left; BACKGROUND-COLOR: #73994C; WIDTH: 100%; FLOAT: left
+
+}
+
+DIV.botonera_corredores UL {
+
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+
+}
+
+DIV.botonera_corredores UL LI {
+
+	BORDER-BOTTOM: #66cc00 2px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.botonera_corredores .activo {
+
+	BORDER-BOTTOM: #66cc00 2px solid
+
+}
+
+DIV.botonera_corredores UL LI A {
+
+	WIDTH: 96px; DISPLAY: block; BACKGROUND-POSITION: left -102px
+
+}
+
+DIV.botonera_corredores UL LI A:link {
+
+	WIDTH: 96px; DISPLAY: block; BACKGROUND-POSITION: left -102px
+
+}
+
+DIV.botonera_corredores UL LI A:visited {
+
+	WIDTH: 96px; DISPLAY: block; BACKGROUND-POSITION: left -102px
+
+}
+
+DIV.botonera_corredores UL LI A:hover {
+
+	BACKGROUND-POSITION: left top
+
+}
+
+DIV.botonera_corredores UL LI A:active {
+
+	BACKGROUND-POSITION: left top
+
+}
+
+DIV.botonera_corredores UL LI A SPAN {
+
+	DISPLAY: none
+
+}
+
+DIV.botonera_corredores .activo A {
+
+	BACKGROUND-POSITION: left top
+
+}
+
+DIV.botonera_corredores .activo A:link {
+
+	BACKGROUND-POSITION: left top
+
+}
+
+DIV.botonera_corredores .activo A:visited {
+
+	BACKGROUND-POSITION: left top
+
+}
+
+#btn_norte {
+
+	HEIGHT: 102px
+
+}
+
+#btn_norte_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_litoral {
+
+	HEIGHT: 102px
+
+}
+
+#btn_litoral_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_cuyo {
+
+	HEIGHT: 102px
+
+}
+
+#btn_cuyo_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_sierras {
+
+	HEIGHT: 102px
+
+}
+
+#btn_sierras_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_buenosaires {
+
+	HEIGHT: 102px
+
+}
+
+#btn_buenosaires_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_costaatlantica {
+
+	HEIGHT: 102px
+
+}
+
+#btn_costaatlantica_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_granvalle {
+
+	HEIGHT: 102px
+
+}
+
+#btn_granvalle_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_loslagos {
+
+	HEIGHT: 102px
+
+}
+
+#btn_loslagos_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_costasur {
+
+	HEIGHT: 102px
+
+}
+
+#btn_costasur_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_austral {
+
+	HEIGHT: 102px
+
+}
+
+#btn_austral_i {
+
+	HEIGHT: 102px
+
+}
+
+#btn_norte {
+
+	BACKGROUND-IMAGE: url(/img/btn_norte.jpg)
+
+}
+
+#btn_norte_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_norte_i.jpg)
+
+}
+
+#btn_litoral {
+
+	BACKGROUND-IMAGE: url(/img/btn_litoral.jpg)
+
+}
+
+#btn_litoral_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_litoral_i.jpg)
+
+}
+
+#btn_cuyo {
+
+	BACKGROUND-IMAGE: url(/img/btn_cuyo.jpg)
+
+}
+
+#btn_cuyo_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_cuyo_i.jpg)
+
+}
+
+#btn_sierras {
+
+	BACKGROUND-IMAGE: url(/img/btn_sierras.jpg)
+
+}
+
+#btn_sierras_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_sierras_i.jpg)
+
+}
+
+#btn_buenosaires {
+
+	BACKGROUND-IMAGE: url(/img/btn_buenosaires.jpg)
+
+}
+
+#btn_buenosaires_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_buenosaires_i.jpg)
+
+}
+
+#btn_costaatlantica {
+
+	BACKGROUND-IMAGE: url(/img/btn_costaatlantica.jpg)
+
+}
+
+#btn_costaatlantica_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_costaatlantica_i.jpg)
+
+}
+
+#btn_granvalle {
+
+	BACKGROUND-IMAGE: url(/img/btn_granvalle.jpg)
+
+}
+
+#btn_granvalle_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_granvalle_i.jpg)
+
+}
+
+#btn_loslagos {
+
+	BACKGROUND-IMAGE: url(/img/btn_loslagos.jpg)
+
+}
+
+#btn_loslagos_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_loslagos_i.jpg)
+
+}
+
+#btn_costasur {
+
+	BACKGROUND-IMAGE: url(/img/btn_costasur.jpg)
+
+}
+
+#btn_costasur_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_costasur_i.jpg)
+
+}
+
+#btn_austral {
+
+	BACKGROUND-IMAGE: url(/img/btn_austral.jpg)
+
+}
+
+#btn_austral_i {
+
+	BACKGROUND-IMAGE: url(/img/btn_austral_i.jpg)
+
+}
+
+#desplegables {
+
+	Z-INDEX: 10; POSITION: relative; TEXT-ALIGN: left; WIDTH: 100%; WHITE-SPACE: nowrap; FLOAT: left; COLOR: #fff
+
+}
+
+#desplegables LI {
+
+	BORDER-BOTTOM: medium none
+
+}
+
+#desplegable_norte {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_litoral {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_cuyo {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_sierras {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_buenosaires {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_costaatlantica {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_granvalle {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_loslagos {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_costasur {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_austral {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_norte_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_litoral_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_cuyo_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_sierras_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_buenosaires_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_costaatlantica_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_granvalle_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_loslagos_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_costasur_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_austral_i {
+
+	Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 10px; MARGIN-TOP: -2px; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(/img/sombra_h.png) repeat-x left bottom; FLOAT: left
+
+}
+
+#desplegable_norte DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_litoral DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_cuyo DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_sierras DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_buenosaires DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_costaatlantica DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_granvalle DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_loslagos DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_costasur DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_austral DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_norte_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_litoral_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_cuyo_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_sierras_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_buenosaires_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_costaatlantica_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_granvalle_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_loslagos_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_costasur_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+#desplegable_austral_i DIV {
+
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../../img/bg_tab_hover.jpg) #2987c5 repeat-x left top; PADDING-TOP: 8px
+
+}
+
+DIV.botonera_corredores TABLE {
+
+	
+
+}
+
+DIV.botonera_corredores TABLE TD {
+
+	WIDTH: 16%
+
+}
+
+DIV.botonera_corredores TABLE A {
+
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 10px; TEXT-DECORATION: none; PADDING-TOP: 2px
+
+}
+
+DIV.botonera_corredores TABLE A:link {
+
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 10px; TEXT-DECORATION: none; PADDING-TOP: 2px
+
+}
+
+DIV.botonera_corredores TABLE A:visited {
+
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 10px; TEXT-DECORATION: none; PADDING-TOP: 2px
+
+}
+
+DIV.botonera_corredores TABLE A:hover {
+
+	BACKGROUND-COLOR: #063f5a; COLOR: #fff
+
+}
+
+DIV.botonera_corredores TABLE A:active {
+
+	BACKGROUND-COLOR: #063f5a; COLOR: #fff
+
+}
+
+#desplegable_granvalle LI {
+
+	WIDTH: 125px; FLOAT: left
+
+}
+
+#desplegable_cuyo LI {
+
+	WIDTH: 108px; FLOAT: left
+
+}
+
+DIV.medio DIV.izquierda DIV.buscador {
+
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #052739; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 5px
+
+}
+
+DIV.medio DIV.izquierda DIV.buscador .campo_input {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; WIDTH: 126px; PADDING-RIGHT: 0px; BACKGROUND: url(/img/bg_input_form.gif) no-repeat left top; FLOAT: left; HEIGHT: 18px; MARGIN-LEFT: 12px; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 4px
+
+}
+
+DIV.medio DIV.izquierda DIV.buscador .campo_enviar {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 18px; BACKGROUND: url(/img/btn_buscador.gif) no-repeat left top; FLOAT: left; HEIGHT: 18px; MARGIN-LEFT: 4px; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+DIV.medio DIV.izquierda DIV.banner {
+
+	POSITION: relative; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.menu_opcion {
+
+	POSITION: relative; BACKGROUND-COLOR: #ccc; WIDTH: 100%; FONT: 11px Tahoma, Arial, Helvetica, sans-serif; MARGIN-BOTTOM: 10px; FLOAT: left; OVERFLOW: visible; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical UL {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical_1 {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical_1 LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical_1 UL {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#menu_vertical LI {
+
+	POSITION: relative; LINE-HEIGHT: 20px; WIDTH: 100%; DISPLAY: block
+
+}
+
+UL#menu_vertical_1 LI {
+
+	POSITION: relative; LINE-HEIGHT: 20px; WIDTH: 100%; DISPLAY: block
+
+}
+
+UL#menu_vertical LI.activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left bottom; COLOR: #33ccff; FONT-WEIGHT: bold
+
+}
+
+UL#menu_vertical_1 LI.activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left bottom; COLOR: #33ccff; FONT-WEIGHT: bold
+
+}
+
+UL#menu_vertical_1 LI.activo {
+
+	BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left bottom
+
+}
+
+UL#menu_vertical A {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical A:visited {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical A:link {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical_1 A {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical_1 A:visited {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical_1 A:link {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#menu_vertical_1 A {
+
+	BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top
+
+}
+
+UL#menu_vertical_1 A:visited {
+
+	BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top
+
+}
+
+UL#menu_vertical_1 A:link {
+
+	BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top
+
+}
+
+UL#menu_vertical A:hover {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#menu_vertical A:active {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#menu_vertical_1 A:hover {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#menu_vertical_1 A:active {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#menu_vertical UL A {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical_1 UL A {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical UL {
+
+	POSITION: absolute; PADDING-LEFT: 11px; WIDTH: 200px; PADDING-RIGHT: 10px; BACKGROUND: url(/img/flecha_blanca.gif) no-repeat 2px 12px; FLOAT: left; TOP: -5px; LEFT: 160px
+
+}
+
+UL#menu_vertical_1 UL {
+
+	POSITION: absolute; PADDING-LEFT: 11px; WIDTH: 200px; PADDING-RIGHT: 10px; BACKGROUND: url(/img/flecha_blanca.gif) no-repeat 2px 12px; FLOAT: left; TOP: -5px; LEFT: 160px
+
+}
+
+UL#menu_vertical_1 UL {
+
+	WIDTH: 200px
+
+}
+
+UL#menu_vertical UL LI {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical_1 UL LI {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical LI.conSubMenu {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; CURSOR: e-resize
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left top; CURSOR: e-resize
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left top
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_menu_opcion.jpg) no-repeat left bottom; COLOR: #33ccff; CURSOR: e-resize; FONT-WEIGHT: bold
+
+}
+
+UL#menu_vertical LI.conSubMenu UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#menu_vertical LI.conSubMenu UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; CURSOR: default; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#menu_vertical LI.conSubMenu UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo UL LI DIV {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo UL LI DIV {
+
+	HEIGHT: 18px
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo LI.activo {
+
+	WIDTH: 100%; HEIGHT: 20px; FONT-WEIGHT: bold; LEFT: 0px
+
+}
+
+UL#menu_vertical LI.conSubMenu:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#menu_vertical LI.conSubMenu_activo:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#menu_vertical LI.iehover UL {
+
+	DISPLAY: block
+
+}
+
+UL#menu_vertical_1 LI.conSubMenu:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#menu_vertical_1 LI.iehover UL {
+
+	DISPLAY: block
+
+}
+
+UL#menu_vertical_1 LI A IMG {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+UL#menu_vertical_1 LI.titulo {
+
+	LINE-HEIGHT: 20px; PADDING-LEFT: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: url(/img/btn_menu_titulo.gif) no-repeat left top; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+
+}
+
+DIV.menu_botcomun {
+
+	POSITION: relative; PADDING-BOTTOM: 10px; WIDTH: 100%; FLOAT: left; FONT-SIZE: 11px
+
+}
+
+UL#botcomun {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun UL {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun_1 {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun_1 LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun_1 UL {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; LIST-STYLE-IMAGE: none; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+UL#botcomun LI {
+
+	POSITION: relative; LINE-HEIGHT: 20px; WIDTH: 100%; DISPLAY: block !important; FLOAT: left
+
+}
+
+UL#botcomun_1 LI {
+
+	POSITION: relative; LINE-HEIGHT: 20px; WIDTH: 100%; DISPLAY: block !important; FLOAT: left
+
+}
+
+UL#botcomun LI.activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left bottom; COLOR: #fff
+
+}
+
+UL#botcomun_1 LI.activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left bottom; COLOR: #fff
+
+}
+
+UL#botcomun_1 LI.activo {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left bottom
+
+}
+
+UL#botcomun A {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun A:visited {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun A:link {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun_1 A {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun_1 A:visited {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun_1 A:link {
+
+	PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; COLOR: #fff; TEXT-DECORATION: none
+
+}
+
+UL#botcomun_1 A {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left top
+
+}
+
+UL#botcomun_1 A:visited {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left top
+
+}
+
+UL#botcomun_1 A:link {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left top
+
+}
+
+UL#botcomun A:hover {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#botcomun A:active {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#botcomun_1 A:hover {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#botcomun_1 A:active {
+
+	BACKGROUND-POSITION: left bottom; COLOR: #fff
+
+}
+
+UL#botcomun UL A {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun_1 UL A {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun UL {
+
+	POSITION: absolute; PADDING-LEFT: 11px; WIDTH: 160px; PADDING-RIGHT: 10px; BACKGROUND: url(/img/flecha_blanca.gif) no-repeat 2px 12px; FLOAT: left; TOP: -5px; LEFT: 160px
+
+}
+
+UL#botcomun_1 UL {
+
+	POSITION: absolute; PADDING-LEFT: 11px; WIDTH: 160px; PADDING-RIGHT: 10px; BACKGROUND: url(/img/flecha_blanca.gif) no-repeat 2px 12px; FLOAT: left; TOP: -5px; LEFT: 160px
+
+}
+
+UL#botcomun UL {
+
+	WIDTH: 200px
+
+}
+
+UL#botcomun UL LI {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun_1 UL LI {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun LI.conSubMenu {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; CURSOR: e-resize
+
+}
+
+UL#botcomun_1 LI.conSubMenu {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left top; CURSOR: e-resize
+
+}
+
+UL#botcomun_1 LI.conSubMenu {
+
+	BACKGROUND: url(/img/btn_menu.gif) no-repeat left top
+
+}
+
+UL#botcomun LI.conSubMenu_activo {
+
+	PADDING-LEFT: 10px; BACKGROUND: url(/img/btn_sub_menu.jpg) no-repeat left bottom; COLOR: #fff; FONT-WEIGHT: bold
+
+}
+
+UL#botcomun LI.conSubMenu UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#botcomun LI.conSubMenu_activo UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#botcomun_1 LI.conSubMenu UL {
+
+	DISPLAY: none; FONT-WEIGHT: normal; PADDING-TOP: 5px
+
+}
+
+UL#botcomun LI.conSubMenu UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#botcomun LI.conSubMenu_activo UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#botcomun_1 LI.conSubMenu UL LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 8px; WIDTH: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; LEFT: -8px
+
+}
+
+UL#botcomun LI.conSubMenu UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun LI.conSubMenu_activo UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun LI.conSubMenu_activo UL LI DIV {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun_1 LI.conSubMenu UL LI A {
+
+	WIDTH: 100%
+
+}
+
+UL#botcomun LI.conSubMenu_activo UL LI DIV {
+
+	HEIGHT: 18px
+
+}
+
+UL#botcomun LI.conSubMenu_activo LI.activo {
+
+	WIDTH: 200px; FONT-WEIGHT: bold; LEFT: 0px
+
+}
+
+UL#botcomun LI.conSubMenu:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#botcomun LI.conSubMenu_activo:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#botcomun LI.iehover UL {
+
+	DISPLAY: block
+
+}
+
+UL#botcomun_1 LI.conSubMenu:hover UL {
+
+	DISPLAY: block
+
+}
+
+UL#botcomun_1 LI.iehover UL {
+
+	DISPLAY: block
+
+}
+
+UL#botcomun LI A IMG {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+UL#botcomun LI.titulo {
+
+	LINE-HEIGHT: 20px; PADDING-LEFT: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: url(/img/btn_menu_titulo.gif) no-repeat left top; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+
+}
+
+DIV.contenidos A {
+
+	COLOR: #000000; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos A:link {
+
+	COLOR: #016f00; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos A:visited {
+
+	COLOR: #016f00; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos A:hover {
+
+	COLOR: #01af00
+
+}
+
+DIV.contenidos A:active {
+
+	COLOR: #01af00
+
+}
+
+DIV.contenidos DIV.idiomas {
+
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 100%; FLOAT: left; COLOR: #777; FONT-SIZE: 10px
+
+}
+
+DIV.contenidos DIV.idiomas A {
+
+	LINE-HEIGHT: 22px; COLOR: #777; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.idiomas A:link {
+
+	LINE-HEIGHT: 22px; COLOR: #777; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.idiomas A:visited {
+
+	LINE-HEIGHT: 22px; COLOR: #777; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.idiomas A:hover {
+
+	COLOR: #007700
+
+}
+
+DIV.contenidos DIV.idiomas A:active {
+
+	COLOR: #007700
+
+}
+
+DIV.contenidos DIV.copy {
+
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; WIDTH: 100%; FLOAT: left; COLOR: #999; FONT-SIZE: 11px
+
+}
+
+DIV.contenidos DIV.copy A {
+
+	COLOR: #999; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.copy A:link {
+
+	COLOR: #999; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.copy A:visited {
+
+	COLOR: #999; TEXT-DECORATION: none
+
+}
+
+DIV.contenidos DIV.copy A:hover {
+
+	COLOR: #007700
+
+}
+
+DIV.contenidos DIV.copy A:active {
+
+	COLOR: #007700
+
+}
+
+DIV.contenidos DIV.banner {
+
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 680px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.caja_paseos {
+
+	POSITION: relative; WIDTH: 680px; MARGIN-BOTTOM: 10px; BACKGROUND: url(/img/bg_caja_paseos.gif) repeat-y left top; FLOAT: left
+
+}
+
+DIV.caja_paseos DIV.top {
+
+	POSITION: relative; BACKGROUND-COLOR: #66cc00; WIDTH: 100%; FLOAT: left; HEIGHT: 27px
+
+}
+
+DIV.caja_paseos DIV.top H2 {
+
+	POSITION: relative; LINE-HEIGHT: 27px; MARGIN: 0px; PADDING-LEFT: 6px; FONT-FAMILY: Arial, "Helvetica", sans-serif; FLOAT: left; COLOR: #fff; FONT-SIZE: 16px; FONT-WEIGHT: bold
+
+}
+
+DIV.caja_paseos DIV.top DIV.cantidad_paseos {
+
+	POSITION: relative; LINE-HEIGHT: 27px; PADDING-RIGHT: 6px; FLOAT: right; COLOR: #fff
+
+}
+
+DIV.caja_paseos DIV.contenido {
+
+	POSITION: relative; WIDTH: 147px; FLOAT: left; COLOR: #064b41; MARGIN-RIGHT: 4px
+
+}
+
+DIV.caja_paseos DIV.foto {
+
+	BACKGROUND: url(/img/bg_caja_paseo_flecha.gif) #054b40 no-repeat 126px 55px
+
+}
+
+DIV.caja_paseos DIV.contenido H3 {
+
+	PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 10px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+
+}
+
+DIV.caja_paseos DIV.contenido H4 {
+
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 14px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.caja_paseos DIV.contenido H4 A {
+
+	COLOR: #064b41; TEXT-DECORATION: none
+
+}
+
+DIV.caja_paseos DIV.contenido H4 A:link {
+
+	COLOR: #064b41; TEXT-DECORATION: none
+
+}
+
+DIV.caja_paseos DIV.contenido H4 A:visited {
+
+	COLOR: #064b41; TEXT-DECORATION: none
+
+}
+
+DIV.caja_paseos DIV.contenido H4 A:hover {
+
+	COLOR: #007700
+
+}
+
+DIV.caja_paseos DIV.contenido H4 A:active {
+
+	COLOR: #007700
+
+}
+
+DIV.caja_paseos DIV.contenido DIV.texto {
+
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+
+}
+
+DIV.caja_paseos DIV.botones {
+
+	POSITION: relative; MARGIN-TOP: 10px; WIDTH: 100%; FLOAT: left; CLEAR: both
+
+}
+
+DIV.caja_paseos DIV.btn_ver {
+
+	POSITION: relative; TEXT-ALIGN: right; WIDTH: 147px; FONT-FAMILY: Arial, Helvetica, sans-serif; FLOAT: left; MARGIN-LEFT: 4px; FONT-SIZE: 11px; FONT-WEIGHT: bold
+
+}
+
+DIV.caja_paseos DIV.btn_ver A {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: #b1b9bc; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.caja_paseos DIV.btn_ver A:link {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: #b1b9bc; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.caja_paseos DIV.btn_ver A:visited {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: #b1b9bc; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.caja_paseos DIV.btn_ver A:hover {
+
+	BACKGROUND-COLOR: #66cc00
+
+}
+
+DIV.caja_paseos DIV.btn_ver A:active {
+
+	BACKGROUND-COLOR: #66cc00
+
+}
+
+DIV.medio DIV.derecha DIV.barra_derecha DIV.banner {
+
+	POSITION: relative; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.clima {
+
+	POSITION: relative; BACKGROUND-COLOR: #fff; WIDTH: 150px; FONT-FAMILY: Arial, Helvetica, sans-serif; MARGIN-BOTTOM: 14px; FLOAT: left
+
+}
+
+DIV.clima DIV.titulo {
+
+	POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #66cc00; HEIGHT: 20px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+
+}
+
+DIV.clima DIV.medio {
+
+	POSITION: relative
+
+}
+
+DIV.clima DIV.temp {
+
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 90px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 25px; COLOR: #54532b; FONT-SIZE: 18px; TOP: 8px; FONT-WEIGHT: bold; LEFT: 56px
+
+}
+
+DIV.clima DIV.estado {
+
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 90px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 25px; COLOR: #54532b; FONT-SIZE: 11px; TOP: 33px; FONT-WEIGHT: bold; LEFT: 56px
+
+}
+
+DIV.clima DIV.inferior {
+
+	POSITION: relative; LINE-HEIGHT: 19px; BACKGROUND-COLOR: #06334b; WIDTH: 100%; FLOAT: left; HEIGHT: 19px; COLOR: #fff; FONT-SIZE: 9px; FONT-WEIGHT: normal
+
+}
+
+DIV.clima DIV.inferior DIV.texto_corto {
+
+	POSITION: relative; PADDING-LEFT: 4px; FLOAT: left
+
+}
+
+DIV.clima DIV.inferior DIV.ver {
+
+	POSITION: relative; TEXT-ALIGN: center; BACKGROUND-COLOR: #66cc00; WIDTH: 40px; FLOAT: right; HEIGHT: 19px
+
+}
+
+DIV.clima DIV.inferior DIV.ver A {
+
+	BACKGROUND-COLOR: #b1b9bc; DISPLAY: block; COLOR: #06334b; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+
+}
+
+DIV.clima DIV.inferior DIV.ver A:hover {
+
+	BACKGROUND-COLOR: #66cc00; COLOR: #fff
+
+}
+
+#interads {
+
+	WIDTH: 150px; FLOAT: left; CLEAR: left; FONT-SIZE: 11px; OVERFLOW: hidden
+
+}
+
+#interads DIV {
+
+	BORDER-BOTTOM: #cecda9 1px dashed; PADDING-BOTTOM: 6px; MARGIN-BOTTOM: 14px
+
+}
+
+#interads A {
+
+	MARGIN-TOP: 6px; DISPLAY: block; COLOR: #00aa00; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+#interads A:link {
+
+	MARGIN-TOP: 6px; DISPLAY: block; COLOR: #00aa00; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+#interads A:visited {
+
+	MARGIN-TOP: 6px; DISPLAY: block; COLOR: #00aa00; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+#interads A:active {
+
+	TEXT-DECORATION: underline
+
+}
+
+#interads A:hover {
+
+	TEXT-DECORATION: underline
+
+}
+
+#interads A.promo {
+
+	DISPLAY: block; MARGIN-BOTTOM: 6px; COLOR: #000; FONT-SIZE: 15px; TEXT-DECORATION: none
+
+}
+
+#interads A.promo:link {
+
+	DISPLAY: block; MARGIN-BOTTOM: 6px; COLOR: #000; FONT-SIZE: 15px; TEXT-DECORATION: none
+
+}
+
+#interads A.promo:visited {
+
+	DISPLAY: block; MARGIN-BOTTOM: 6px; COLOR: #000; FONT-SIZE: 15px; TEXT-DECORATION: none
+
+}
+
+#interads A.promo:active {
+
+	TEXT-DECORATION: underline
+
+}
+
+#interads A.promo:hover {
+
+	TEXT-DECORATION: underline
+
+}
+
+#interads P {
+
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 0px; COLOR: #000
+
+}
+
+#colorbox {
+
+	Z-INDEX: 9999; POSITION: absolute; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
+
+}
+
+#cboxOverlay {
+
+	Z-INDEX: 9999; POSITION: absolute; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
+
+}
+
+#cboxWrapper {
+
+	Z-INDEX: 9999; POSITION: absolute; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
+
+}
+
+#cboxOverlay {
+
+	POSITION: fixed; WIDTH: 100%; HEIGHT: 100%
+
+}
+
+#cboxMiddleLeft {
+
+	CLEAR: left
+
+}
+
+#cboxBottomLeft {
+
+	CLEAR: left
+
+}
+
+#cboxContent {
+
+	POSITION: relative; OVERFLOW: hidden
+
+}
+
+#cboxLoadedContent {
+
+	OVERFLOW: auto
+
+}
+
+#cboxLoadedContent IFRAME {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; DISPLAY: block; HEIGHT: 100%; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+#cboxTitle {
+
+	MARGIN: 0px
+
+}
+
+#cboxLoadingOverlay {
+
+	POSITION: absolute; WIDTH: 100%; TOP: 0px; LEFT: 0px
+
+}
+
+#cboxLoadingGraphic {
+
+	POSITION: absolute; WIDTH: 100%; TOP: 0px; LEFT: 0px
+
+}
+
+#cboxPrevious {
+
+	CURSOR: pointer
+
+}
+
+#cboxNext {
+
+	CURSOR: pointer
+
+}
+
+#cboxClose {
+
+	CURSOR: pointer
+
+}
+
+#cboxSlideshow {
+
+	CURSOR: pointer
+
+}
+
+#cboxOverlay {
+
+	BACKGROUND: url(/img/cb/overlay.png) 0px 0px
+
+}
+
+#colorbox {
+
+	
+
+}
+
+#cboxTopLeft {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) no-repeat -100px 0px; HEIGHT: 21px
+
+}
+
+#cboxTopRight {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) no-repeat -129px 0px; HEIGHT: 21px
+
+}
+
+#cboxBottomLeft {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) no-repeat -100px -29px; HEIGHT: 21px
+
+}
+
+#cboxBottomRight {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) no-repeat -129px -29px; HEIGHT: 21px
+
+}
+
+#cboxMiddleLeft {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) repeat-y left top
+
+}
+
+#cboxMiddleRight {
+
+	WIDTH: 21px; BACKGROUND: url(/img/cb/controls.png) repeat-y right top
+
+}
+
+#cboxTopCenter {
+
+	BACKGROUND: url(/img/cb/border.png) repeat-x 0px 0px; HEIGHT: 21px
+
+}
+
+#cboxBottomCenter {
+
+	BACKGROUND: url(/img/cb/border.png) repeat-x 0px -29px; HEIGHT: 21px
+
+}
+
+#cboxContent {
+
+	BACKGROUND: #fff
+
+}
+
+#cboxLoadedContent {
+
+	MARGIN-BOTTOM: 28px
+
+}
+
+#cboxTitle {
+
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; BOTTOM: 4px; COLOR: #949494; LEFT: 0px
+
+}
+
+#cboxCurrent {
+
+	POSITION: absolute; BOTTOM: 4px; COLOR: #949494; LEFT: 58px
+
+}
+
+#cboxSlideshow {
+
+	POSITION: absolute; BOTTOM: 4px; COLOR: #0092ef; RIGHT: 30px
+
+}
+
+#cboxPrevious {
+
+	POSITION: absolute; TEXT-INDENT: -9999px; WIDTH: 25px; BOTTOM: 0px; BACKGROUND: url(/img/cb/controls.png) no-repeat -75px 0px; HEIGHT: 25px; LEFT: 0px
+
+}
+
+.hover#cboxPrevious {
+
+	BACKGROUND-POSITION: -75px -25px
+
+}
+
+#cboxNext {
+
+	POSITION: absolute; TEXT-INDENT: -9999px; WIDTH: 25px; BOTTOM: 0px; BACKGROUND: url(/img/cb/controls.png) no-repeat -50px 0px; HEIGHT: 25px; LEFT: 27px
+
+}
+
+.hover#cboxNext {
+
+	BACKGROUND-POSITION: -50px -25px
+
+}
+
+#cboxLoadingOverlay {
+
+	BACKGROUND: url(/img/cb/loading_background.png) no-repeat center center
+
+}
+
+#cboxLoadingGraphic {
+
+	BACKGROUND: url(/img/cb/loading.gif) no-repeat center center
+
+}
+
+#cboxClose {
+
+	POSITION: absolute; TEXT-INDENT: -9999px; WIDTH: 25px; BOTTOM: 0px; BACKGROUND: url(/img/cb/controls.png) no-repeat -25px 0px; HEIGHT: 25px; RIGHT: 0px
+
+}
+
+.hover#cboxClose {
+
+	BACKGROUND-POSITION: -25px -25px
+
+}
+
+.cboxIE #cboxTopLeft {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderTopLeft.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxTopCenter {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderTopCenter.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxTopRight {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderTopRight.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxBottomLeft {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderBottomLeft.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxBottomCenter {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderBottomCenter.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxBottomRight {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderBottomRight.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxMiddleLeft {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderMiddleLeft.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+.cboxIE #cboxMiddleRight {
+
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/cb/internet_explorer/borderMiddleRight.png, sizingMethod='scale'); BACKGROUND: none transparent scroll repeat 0% 0%
+
+}
+
+#cboxLoadedContent {
+
+	MARGIN-BOTTOM: 55px
+
+}
+
+#cboxTitle {
+
+	POSITION: absolute; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; WIDTH: 100%; BOTTOM: 28px; COLOR: #666666; PADDING-TOP: 6px; LEFT: 0px
+
+}
+
+.tabs {
+
+	CLIP: inherit; Z-INDEX: 11; POSITION: fixed; WIDTH: 122px; DISPLAY: block; HEIGHT: 59px; TOP: 100px; RIGHT: -95px; PADDING-TOP: 16px
+
+}
+
+.tabs A {
+
+	PADDING-BOTTOM: 12px; WIDTH: 76px; PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: right; CLEAR: both
+
+}
+
+.tabs IMG {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+.twitter {
+
+	BACKGROUND-IMAGE: url(/img/twitter_bg.png); BACKGROUND-REPEAT: no-repeat; TOP: 80px
+
+}
+
+.facebook {
+
+	BACKGROUND-IMAGE: url(/img/facebook_bg.png); BACKGROUND-REPEAT: no-repeat; TOP: 155px
+
+}
+
+.youtube {
+
+	BACKGROUND-IMAGE: url(/img/youtube_bg.png); BACKGROUND-REPEAT: no-repeat; TOP: 231px
+
+}
+
+.corredores {
+
+	Z-INDEX: 10; POSITION: relative; FLOAT: left
+
+}
+
+.menu {
+
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(/img/bg_menu.jpg) repeat-x 0px 0px; HEIGHT: 40px; PADDING-TOP: 0px
+
+}
+
+.menu LI {
+
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+
+}
+
+.menu LI A {
+
+	TEXT-ALIGN: center; BORDER-LEFT: #07263a 1px solid; LINE-HEIGHT: 40px; WIDTH: 80px; DISPLAY: block; FONT-FAMILY: Arial, Helvetica, sans-serif; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 14px; BORDER-RIGHT: #105777 1px solid; TEXT-DECORATION: none
+
+}
+
+.menu LI A:hover {
+
+	BACKGROUND: url(/img/bg_over.jpg) repeat-x 0px 0px; COLOR: #ffffff
+
+}
+
+.sobre_btn_corredor {
+
+	BACKGROUND: url(/img/bg_over.jpg) repeat-x 0px 0px; COLOR: #ffffff
+
+}
+
+.menu LI A.activo {
+
+	BACKGROUND: url(/img/bg_over.jpg) repeat-x 0px 0px; COLOR: #ffffff
+
+}
+
+.submenu {
+
+	Z-INDEX: 10; POSITION: absolute; TEXT-ALIGN: center; PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #0e6a9f; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 20px; WIDTH: 920px; PADDING-RIGHT: 20px; DISPLAY: none; TOP: 40px; PADDING-TOP: 20px; LEFT: 0px
+
+}
+
+.submenu LI {
+
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 180px; BACKGROUND: url(/img/separador_li.gif) repeat-y left top; FLOAT: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+.submenu LI A {
+
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 10px; WIDTH: 150px; PADDING-RIGHT: 10px; DISPLAY: block; FONT-FAMILY: Arial, Helvetica, sans-serif; MARGIN-LEFT: 5px; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+
+}
+
+.submenu LI A:hover {
+
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #0c5581
+
+}
+
+.submenu .descripcion {
+
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; WIDTH: 360px; PADDING-RIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; FLOAT: left; HEIGHT: 150px; COLOR: #fff; CLEAR: left; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+
+}
+
+.submenu .descripcion STRONG {
+
+	FONT-SIZE: 16px
+
+}
+
+.submenu .descripcion IMG {
+
+	MARGIN-BOTTOM: 10px; FLOAT: left; MARGIN-RIGHT: 10px
+
+}
+
+.submenu .descripcion A {
+
+	LINE-HEIGHT: 20px; MARGIN: 5px 0px 0px; PADDING-LEFT: 8px; WIDTH: 60px; DISPLAY: block; BACKGROUND: url(/img/bullet.gif) #66cd0c no-repeat 65px center; FLOAT: left; COLOR: #fff
+
+}
+
+.submenu .descripcion A:hover {
+
+	BACKGROUND: url(/img/bullet.gif) #0c5581 no-repeat 65px center; COLOR: #fff
+
+}
+
+.video_home {
+
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 960px; HEIGHT: 180px; OVERFLOW: hidden !important
+
+}
+
+DIV.home_integradas {
+
+	POSITION: relative; LINE-HEIGHT: 13px; MARGIN: 0px 0px 10px; WIDTH: 100%; FONT-FAMILY: Tahoma, Arial, sans-serif; FLOAT: left; HEIGHT: 300px; COLOR: #fff; FONT-SIZE: 11px; OVERFLOW: hidden
+
+}
+
+DIV.home_integradas DIV.izquierda {
+
+	BACKGROUND-COLOR: #5c8cce; WIDTH: 400px; HEIGHT: 300px
+
+}
+
+DIV.home_integradas DIV.izquierda DIV.mapa {
+
+	Z-INDEX: 2; POSITION: absolute; WIDTH: 400px
+
+}
+
+DIV.home_integradas DIV.izquierda DIV.texto {
+
+	MARGIN: 10px 10px 0px 0px; WIDTH: 200px; FLOAT: right
+
+}
+
+DIV.home_integradas DIV.izquierda DIV.texto DIV.titulo {
+
+	PADDING-BOTTOM: 14px; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, "Helvetica", sans-serif; FONT-SIZE: 18px; FONT-WEIGHT: normal
+
+}
+
+DIV.home_integradas DIV.derecha {
+
+	WIDTH: 200px
+
+}
+
+DIV.home_integradas DIV.derecha DIV.superior {
+
+	WIDTH: 200px; HEIGHT: 130px; OVERFLOW: hidden
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior {
+
+	BACKGROUND-COLOR: #f2f2f2; HEIGHT: 170px
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.titulo {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; BACKGROUND-COLOR: #66cc00; PADDING-LEFT: 10px; WIDTH: 190px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "Helvetica", sans-serif; MARGIN-BOTTOM: 4px; FLOAT: left; COLOR: #fff; FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.subtitulo {
+
+	POSITION: relative; PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: left; COLOR: #052b3f; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 180px; PADDING-RIGHT: 10px; FLOAT: left; COLOR: #052b3f; PADDING-TOP: 0px
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto A {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto A:link {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto A:visited {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto A:active {
+
+	COLOR: #339900
+
+}
+
+DIV.home_integradas DIV.derecha DIV.inferior DIV.texto A:hover {
+
+	COLOR: #339900
+
+}
+
+DIV.rota_foto {
+
+	POSITION: relative; BACKGROUND-COLOR: #f2f2f2; MARGIN: 0px 0px 13px; WIDTH: 680px; FLOAT: left
+
+}
+
+DIV.rota_foto DIV.titulo {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; BACKGROUND-COLOR: #66cc00; PADDING-LEFT: 10px; WIDTH: 190px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "Helvetica", sans-serif; MARGIN-BOTTOM: 4px; FLOAT: left; COLOR: #fff; FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.rota_foto DIV.subtitulo {
+
+	POSITION: relative; PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: left; COLOR: #052b3f; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.rota_foto DIV.texto {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 172px; PADDING-RIGHT: 10px; FLOAT: left; COLOR: #052b3f; PADDING-TOP: 0px
+
+}
+
+DIV.rota_foto DIV.texto A {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.rota_foto DIV.texto A:link {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.rota_foto DIV.texto A:visited {
+
+	COLOR: #007700; TEXT-DECORATION: none
+
+}
+
+DIV.rota_foto DIV.texto A:active {
+
+	COLOR: #339900
+
+}
+
+DIV.rota_foto DIV.texto A:hover {
+
+	COLOR: #339900
+
+}
+
+DIV.rota_foto DIV.contenedor {
+
+	POSITION: relative; BACKGROUND-COLOR: #000000; WIDTH: 680px; FLOAT: left; HEIGHT: 170px; OVERFLOW: hidden;
+
+}
+
+DIV.rota_foto DIV.contenedor DIV.deslizable {
+
+	POSITION: relative; FLOAT: left; HEIGHT: 170px
+
+}
+
+DIV.rota_foto DIV.deslizable A {
+
+	FLOAT: left
+
+}
+
+DIV.tematico {
+
+	POSITION: relative; MARGIN: 0px 0px 10px; WIDTH: 100%; BACKGROUND: #66cc00 no-repeat 0px 21px; FLOAT: left; HEIGHT: 230px
+
+}
+
+DIV.tematico DIV.titulo {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+
+}
+
+DIV.tematico DIV.subtitulo {
+
+	POSITION: relative; PADDING-BOTTOM: 7px; LINE-HEIGHT: 14px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 14px; PADDING-TOP: 7px
+
+}
+
+DIV.tematico DIV.subtitulo A {
+
+	TEXT-TRANSFORM: uppercase; COLOR: #06334b; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+DIV.tematico DIV.subtitulo A:link {
+
+	TEXT-TRANSFORM: uppercase; COLOR: #06334b; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+DIV.tematico DIV.subtitulo A:visited {
+
+	TEXT-TRANSFORM: uppercase; COLOR: #06334b; FONT-WEIGHT: bold; TEXT-DECORATION: none
+
+}
+
+DIV.tematico DIV.subtitulo A:hover {
+
+	TEXT-DECORATION: underline
+
+}
+
+DIV.tematico DIV.subtitulo A:active {
+
+	TEXT-DECORATION: underline
+
+}
+
+DIV.tematico DIV.texto {
+
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP: 0px
+
+}
+
+DIV.tematico DIV.btn_ver {
+
+	POSITION: absolute; TEXT-ALIGN: right; WIDTH: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TOP: 208px; FONT-WEIGHT: bold
+
+}
+
+DIV.tematico DIV.btn_ver A {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; BACKGROUND-COLOR: #73994C; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.tematico DIV.btn_ver A:link {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; BACKGROUND-COLOR: #73994C; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.tematico DIV.btn_ver A:visited {
+
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; BACKGROUND-COLOR: #73994C; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #06334b; TEXT-DECORATION: none; PADDING-TOP: 4px
+
+}
+
+DIV.tematico DIV.btn_ver A:hover {
+
+	BACKGROUND-COLOR: #06334b; COLOR: #73994C
+
+}
+
+DIV.tematico DIV.btn_ver A:active {
+
+	BACKGROUND-COLOR: #06334b; COLOR: #73994C
+
+}
+
+DIV.carrousel_home {
+
+	POSITION: relative; WIDTH: 680px; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; MARGIN-BOTTOM: 10px; FLOAT: left; FONT-SIZE: 11px
+
+}
+
+DIV.carrousel_home DIV.titulo {
+
+	POSITION: relative; BACKGROUND-COLOR:#0C4DA0; WIDTH: 680px; FLOAT: left
+
+}
+
+DIV.carrousel_home DIV.titulo H1 {
+
+	LINE-HEIGHT: 25px; MARGIN: 0px 0px 0px 0px; COLOR: #fff; FONT-SIZE: 16px; FONT-WEIGHT: bold
+
+}
+
+DIV.carrousel_home DIV.contenedor {
+
+	POSITION: relative; WIDTH: 680px; FLOAT: left; HEIGHT: 170px; OVERFLOW: hidden;
+	background-color:#CC3399;
+
+}
+
+DIV.carrousel_home DIV.scroller {
+	POSITION: relative;
+	FLOAT: left;
+	width: 680px;
+		background-color:#0000FF;
+	
+
+}
+
+DIV.carrousel_home DIV.scroller DIV {
+
+	POSITION: relative; WIDTH: 680px; FLOAT: left; HEIGHT: 170px; OVERFLOW: hidden;
+		background-color:#0000FF;
+
+}
+
+DIV.carrousel_home DIV.scroller DIV DIV.img {
+
+	POSITION: relative; WIDTH: 360px; FLOAT: left;
+	background-color:#0000FF;
+
+}
+
+DIV.carrousel_home DIV.scroller DIV DIV.texto {
+
+	POSITION: relative; WIDTH: 320px; FLOAT: right; MARGIN-RIGHT: 10px
+		background-color:#0000FF;
+
+}
+
+DIV.carrousel_home DIV.scroller DIV DIV.texto H2 {
+
+	MARGIN: 6px 0px 5px; COLOR: #052b3f; FONT-SIZE: 22px; FONT-WEIGHT: normal;
+		background-color:#0000FF;
+
+}
+
+DIV.carrousel_home DIV.scroller DIV DIV.texto A {
+
+	COLOR: #73994C; FONT-WEIGHT: bold
+
+}
+
+DIV.carrousel_home DIV.scroller DIV DIV.texto A:hover {
+
+	COLOR: #73994C
+
+}
+
+DIV.pie_controles {
+
+	POSITION: relative; BACKGROUND-COLOR: #F5F5F5; WIDTH: 100%; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; FLOAT: left; HEIGHT: 27px
+
+}
+
+DIV.pie_controles DIV.contenedor_controles {
+
+	POSITION: relative; WIDTH: 360px; FLOAT: left
+
+}
+
+DIV.pie_controles .controles {
+
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 0px 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+
+}
+
+DIV.pie_controles .controles LI {
+
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 66px; PADDING-RIGHT: 4px; DISPLAY: block; FLOAT: left; COLOR: #003399; FONT-SIZE: 11px; CURSOR: pointer; PADDING-TOP: 0px
+
+}
+
+DIV.pie_controles .controles .prevbtn {
+
+	BACKGROUND-IMAGE: url(/img/atras.gif); PADDING-LEFT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 10px
+
+}
+
+#playbtn {
+
+	TEXT-ALIGN: center; FLOAT: left
+
+}
+
+#pausebtn {
+
+	TEXT-ALIGN: center; DISPLAY: none; FLOAT: left
+
+}
+
+DIV.pie_controles .controles .nextbtn {
+
+	BACKGROUND-IMAGE: url(/img/adelante.gif); TEXT-ALIGN: right; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 10px
+
+}
+
+.corredores {
+
+	BORDER-BOTTOM: #333333 2px solid
+
+}

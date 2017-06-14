@@ -1,0 +1,1158 @@
+body {
+	margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-family: tahoma,Arial,Helvetica,sans-serif; font-size: 11px; background-color: rgb(177, 184, 188);
+}
+div.total {
+	width: 100%; text-align: center; float: none;
+}
+div.interno {
+	margin: 0px auto; width: 960px; text-align: center; position: relative;
+}
+div.bg {
+	background: url("../images/bg.gif") repeat-y right top rgb(6, 51, 75); width: 960px; float: left; position: relative;
+}
+div.medio {
+	width: 100%; text-align: left; color: rgb(5, 39, 57); position: relative;
+}
+div.medio div.derecha {
+	width: 790px; float: right; position: relative;
+}
+div.medio div.derecha div.contenidos {
+	margin: 10px 0px 10px 10px; width: 600px; float: left; position: relative;
+}
+* html div.medio div.derecha div.contenidos {
+	margin: 10px 0px; left: 10px;
+}
+div.medio div.derecha div.barra_derecha {
+	margin: 10px 0px 0px 10px; width: 150px; right: 10px; float: right; position: relative;
+}
+div.medio div.izquierda {
+	width: 170px; color: rgb(255, 255, 255); float: left; position: relative;
+}
+div.medio div.izquierda div.margenes {
+	padding: 0px 0px 0px 10px; width: 150px; float: left; position: relative;
+}
+div.firma {
+	width: 100%; height: 25px; text-align: right; clear: both; float: right; position: relative; background-color: rgb(5, 39, 57);
+}
+div.header {
+	width: 100%; float: left; position: relative; background-color: rgb(13, 58, 79);
+}
+div.header div.logo {
+	float: left; position: relative;
+}
+div.header div.banner {
+	padding: 9px 9px 0px 0px; left: 483px; width: 468px; height: 60px; text-align: left; position: absolute; z-index: 2;
+}
+div.header div.barra {
+	width: 100%; text-align: left; line-height: 24px; clear: left; float: left; position: relative;
+}
+div.header div.barra div.leyenda {
+	padding: 0px 0px 0px 100px; width: 280px; font-family: Helvetica,Tahoma,Arial; font-size: 14px; float: left; position: relative;
+}
+div.header div.barra div.leyenda strong {
+	color: rgb(102, 204, 0); font-weight: normal;
+}
+div.fecha_idioma {
+	text-align: right; color: rgb(102, 204, 0); padding-right: 10px; float: right; position: relative;
+}
+div.fecha_idioma a.e {
+	color: rgb(255, 255, 255); padding-left: 24px; text-decoration: none;
+}
+div.fecha_idioma a.i {
+	color: rgb(255, 255, 255); padding-left: 24px; text-decoration: none;
+}
+div.fecha_idioma a.p {
+	color: rgb(255, 255, 255); padding-left: 24px; text-decoration: none;
+}
+div.fecha_idioma a:hover {
+	color: rgb(102, 204, 0);
+}
+div.fecha_idioma a.e {
+	background: url("../images/idiomas_esp.gif") no-repeat left 2px;
+}
+div.fecha_idioma a.i {
+	background: url("../images/idiomas_uk.gif") no-repeat left 2px;
+}
+div.fecha_idioma a.p {
+	background: url("../images/idiomas_pr.gif") no-repeat left 2px;
+}
+div.botonera_corredores {
+	width: 100%; text-align: left; float: left; position: relative; z-index: 3; background-color: rgb(5, 39, 57);
+}
+div.botonera_corredores ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div.botonera_corredores ul li {
+	padding: 0px; border-bottom-color: rgb(102, 204, 0); border-bottom-width: 2px; border-bottom-style: solid; float: left;
+}
+div.botonera_corredores .activo {
+	border-bottom-color: rgb(102, 204, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+div.botonera_corredores ul li a {
+	background-position: left -102px; width: 96px; display: block;
+}
+div.botonera_corredores ul li a:hover {
+	
+}
+div.botonera_corredores ul li a span {
+	display: none;
+}
+div.botonera_corredores .activo a {
+	
+}
+div.botonera_corredores .activo a:link {
+	
+}
+div.botonera_corredores .activo a:visited {
+	
+}
+#btn_norte {
+	height: 102px;
+}
+#btn_norte_i {
+	height: 102px;
+}
+#btn_litoral {
+	height: 102px;
+}
+#btn_litoral_i {
+	height: 102px;
+}
+#btn_cuyo {
+	height: 102px;
+}
+#btn_cuyo_i {
+	height: 102px;
+}
+#btn_sierras {
+	height: 102px;
+}
+#btn_sierras_i {
+	height: 102px;
+}
+#btn_buenosaires {
+	height: 102px;
+}
+#btn_buenosaires_i {
+	height: 102px;
+}
+#btn_costaatlantica {
+	height: 102px;
+}
+#btn_costaatlantica_i {
+	height: 102px;
+}
+#btn_granvalle {
+	height: 102px;
+}
+#btn_granvalle_i {
+	height: 102px;
+}
+#btn_loslagos {
+	height: 102px;
+}
+#btn_loslagos_i {
+	height: 102px;
+}
+#btn_costasur {
+	height: 102px;
+}
+#btn_costasur_i {
+	height: 102px;
+}
+#btn_austral {
+	height: 102px;
+}
+#btn_austral_i {
+	height: 102px;
+}
+#btn_norte {
+	background-image: url("../images/btn_norte.jpg");
+}
+#btn_norte_i {
+	background-image: url("../images/btn_norte_i.jpg");
+}
+#btn_litoral {
+	background-image: url("../images/btn_litoral.jpg");
+}
+#btn_litoral_i {
+	background-image: url("../images/btn_litoral_i.jpg");
+}
+#btn_cuyo {
+	background-image: url("../images/btn_cuyo.jpg");
+}
+#btn_cuyo_i {
+	background-image: url("../images/btn_cuyo_i.jpg");
+}
+#btn_sierras {
+	background-image: url("../images/btn_sierras.jpg");
+}
+#btn_sierras_i {
+	background-image: url("../images/btn_sierras_i.jpg");
+}
+#btn_buenosaires {
+	background-image: url("../images/btn_buenosaires.jpg");
+}
+#btn_buenosaires_i {
+	background-image: url("../images/btn_buenosaires_i.jpg");
+}
+#btn_costaatlantica {
+	background-image: url("../images/btn_costaatlantica.jpg");
+}
+#btn_costaatlantica_i {
+	background-image: url("../images/btn_costaatlantica_i.jpg");
+}
+#btn_granvalle {
+	background-image: url("../images/btn_granvalle.jpg");
+}
+#btn_granvalle_i {
+	background-image: url("../images/btn_granvalle_i.jpg");
+}
+#btn_loslagos {
+	background-image: url("../images/btn_loslagos.jpg");
+}
+#btn_loslagos_i {
+	background-image: url("../images/btn_loslagos_i.jpg");
+}
+#btn_costasur {
+	background-image: url("../images/btn_costasur.jpg");
+}
+#btn_costasur_i {
+	background-image: url("../images/btn_costasur_i.jpg");
+}
+#btn_austral {
+	background-image: url("../images/btn_austral.jpg");
+}
+#btn_austral_i {
+	background-image: url("../images/btn_austral_i.jpg");
+}
+#desplegables {
+	width: 100%; text-align: left; color: rgb(255, 255, 255); float: left; white-space: nowrap; position: relative; z-index: 10;
+}
+#desplegables li {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#desplegable_norte {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_litoral {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_cuyo {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_sierras {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_buenosaires {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_costaatlantica {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_granvalle {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_loslagos {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_costasur {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_austral {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_norte_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_litoral_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_cuyo_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_sierras_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_buenosaires_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_costaatlantica_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_granvalle_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_loslagos_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_costasur_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_austral_i {
+	background: url("../images/sombra_h.png") repeat-x left bottom; width: 100%; padding-bottom: 10px; margin-top: -2px; float: left; display: none; position: absolute; z-index: 4;
+}
+#desplegable_norte div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_litoral div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_cuyo div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_sierras div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_buenosaires div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_costaatlantica div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_granvalle div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_loslagos div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_costasur div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_austral div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_norte_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_litoral_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_cuyo_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_sierras_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_buenosaires_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_costaatlantica_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_granvalle_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_loslagos_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_costasur_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+#desplegable_austral_i div {
+	background: url("../..../images/bg_tab_hover.jpg") repeat-x left top rgb(41, 135, 197); padding: 8px 4px;
+}
+div.botonera_corredores table {
+	
+}
+div.botonera_corredores table td {
+	width: 16%;
+}
+div.botonera_corredores table a {
+	padding: 2px 4px 2px 10px; width: auto; color: rgb(255, 255, 255); font-size: 10px; text-decoration: none; display: block;
+}
+div.botonera_corredores table a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(6, 63, 90);
+}
+#desplegable_granvalle li {
+	width: 125px; float: left;
+}
+#desplegable_cuyo li {
+	width: 108px; float: left;
+}
+div.medio div.izquierda div.buscador {
+	padding: 5px 0px 10px; width: 100%; text-align: center; float: left; position: relative; background-color: rgb(5, 39, 57);
+}
+div.medio div.izquierda div.buscador .campo_input {
+	background: url("../images/bg_input_form.gif") no-repeat left top; padding: 4px 0px 0px 6px; border: 0px currentColor; width: 126px; height: 18px; font-size: 11px; margin-left: 12px; float: left;
+}
+div.medio div.izquierda div.buscador .campo_enviar {
+	background: url("../images/btn_buscador.gif") no-repeat left top; border: 0px currentColor; width: 18px; height: 18px; font-size: 11px; margin-left: 4px; float: left;
+}
+div.medio div.izquierda div.banner {
+	padding: 0px 0px 10px; width: 150px; float: left; position: relative;
+}
+div.menu_opcion {
+	font: 12px/normal Tahoma, Arial, Helvetica, sans-serif; width: 100%; overflow: visible; padding-top: 0px; margin-bottom: 10px; float: left; position: relative; font-size-adjust: none; font-stretch: normal; background-color: rgb(204, 204, 204);
+}
+.menu_vertical {
+	background-color: rgb(6, 80, 117);
+}
+.menu_vertical_1 {
+	background-color: rgb(6, 80, 117);
+}
+.menu_vertical {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical_1 {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical_1 li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical_1 ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.menu_vertical li {
+	width: 100%; line-height: 22px;
+}
+.menu_vertical_1 li {
+	width: 100%; line-height: 22px;
+}
+.menu_vertical .activo {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; color: rgb(51, 204, 255); padding-left: 10px; font-weight: bold;
+}
+.menu_vertical_1 .activo {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; color: rgb(51, 204, 255); padding-left: 10px; font-weight: bold;
+}
+.menu_vertical a {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; color: rgb(255, 255, 255); padding-left: 10px; text-decoration: none; display: block;
+}
+.menu_vertical_1 a {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; color: rgb(255, 255, 255); padding-left: 10px; text-decoration: none; display: block;
+}
+.menu_vertical a:hover {
+	background-position: left bottom; color: rgb(255, 255, 255);
+}
+.menu_vertical_1 a:hover {
+	background-position: left bottom; color: rgb(255, 255, 255);
+}
+.menu_vertical ul a {
+	background: url("../images/bg_menu_flecha.gif") no-repeat 10px rgb(6, 80, 117); padding-left: 20px; font-weight: normal;
+}
+.menu_vertical_1 ul a {
+	background: url("../images/bg_menu_flecha.gif") no-repeat 10px rgb(6, 80, 117); padding-left: 20px; font-weight: normal;
+}
+.conSubMenu_activo div {
+	background: url("../images/bg_menu_flecha.gif") no-repeat 10px rgb(6, 80, 117); padding-left: 20px; font-weight: normal;
+}
+.conSubMenu_activo .activo {
+	padding-left: 0px;
+}
+.menu_vertical ul a:hover {
+	background-position: 10px; background-color: rgb(7, 38, 58);
+}
+.menu_vertical_1 ul a:hover {
+	background-position: 10px; background-color: rgb(7, 38, 58);
+}
+.menu_vertical_1 ul {
+	width: 200px;
+}
+.menu_vertical .conSubMenu {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; cursor: s-resize;
+}
+.menu_vertical_1 .conSubMenu {
+	background: url("../images/btn_menu_opcion_1.jpg") no-repeat left top; cursor: s-resize;
+}
+.menu_vertical_1 .conSubMenu {
+	background: url("../images/btn_menu.gif") no-repeat left top;
+}
+.menu_vertical li.conSubMenu_activo {
+	color: rgb(51, 204, 255); font-weight: bold;
+}
+.menu_vertical .conSubMenu_activo > a {
+	color: rgb(51, 204, 255); font-weight: bold;
+}
+.conSubMenu ul {
+	font-weight: normal; display: none;
+}
+.conSubMenu_activo ul {
+	font-weight: normal; display: none;
+}
+.conSubMenu ul {
+	font-weight: normal; display: none;
+}
+.conSubMenu .muestra {
+	display: block;
+}
+.conSubMenu_activo .muestra {
+	display: block;
+}
+.conSubMenu .muestra {
+	display: block;
+}
+.menu_vertical_1 li a img {
+	border: 0px currentColor; vertical-align: middle;
+}
+.menu_vertical_1 .titulo {
+	background: url("../images/btn_menu_titulo.gif") no-repeat left top; color: rgb(255, 255, 255); line-height: 20px; padding-left: 10px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold;
+}
+.menu_vertical a.h {
+	background-image: url("../images/btn_menu_opcion_h.jpg");
+}
+.menu_vertical a.p {
+	background-image: url("../images/btn_menu_opcion_p.jpg");
+}
+.menu_vertical li.p {
+	background-image: url("../images/btn_menu_opcion_p.jpg");
+}
+.menu_vertical a.e {
+	background-image: url("../images/btn_menu_opcion_e.jpg");
+}
+.menu_vertical li.e {
+	background-image: url("../images/btn_menu_opcion_e.jpg");
+}
+.fixed {
+	top: 0px; position: fixed;
+}
+.flo {
+	width: 100%; height: 40px; text-align: left; float: left; position: relative; z-index: 2;
+}
+div.menu_botcomun {
+	width: 100%; padding-bottom: 10px; font-size: 11px; float: left; position: relative;
+}
+ul#botcomun {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun_1 {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun_1 li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun_1 ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul#botcomun li {
+	width: 100%; line-height: 20px; float: left; display: block !important; position: relative;
+}
+ul#botcomun_1 li {
+	width: 100%; line-height: 20px; float: left; display: block !important; position: relative;
+}
+ul#botcomun li.activo {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left bottom; color: rgb(255, 255, 255); padding-left: 10px;
+}
+ul#botcomun_1 li.activo {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left bottom; color: rgb(255, 255, 255); padding-left: 10px;
+}
+ul#botcomun_1 li.activo {
+	background: url("../images/btn_menu.gif") no-repeat left bottom;
+}
+ul#botcomun a {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left top; width: 100%; color: rgb(255, 255, 255); padding-left: 10px; text-decoration: none; display: block;
+}
+ul#botcomun_1 a {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left top; width: 100%; color: rgb(255, 255, 255); padding-left: 10px; text-decoration: none; display: block;
+}
+ul#botcomun_1 a {
+	background: url("../images/btn_menu.gif") no-repeat left top;
+}
+ul#botcomun a:hover {
+	background-position: left bottom; color: rgb(255, 255, 255);
+}
+ul#botcomun_1 a:hover {
+	background-position: left bottom; color: rgb(255, 255, 255);
+}
+ul#botcomun ul a {
+	width: 100%;
+}
+ul#botcomun_1 ul a {
+	width: 100%;
+}
+ul#botcomun ul {
+	background: url("../images/flecha_blanca.gif") no-repeat 2px 12px; left: 160px; top: -5px; width: 160px; padding-right: 10px; padding-left: 11px; float: left; position: absolute;
+}
+ul#botcomun_1 ul {
+	background: url("../images/flecha_blanca.gif") no-repeat 2px 12px; left: 160px; top: -5px; width: 160px; padding-right: 10px; padding-left: 11px; float: left; position: absolute;
+}
+ul#botcomun ul {
+	width: 200px;
+}
+ul#botcomun ul li {
+	width: 100%;
+}
+ul#botcomun_1 ul li {
+	width: 100%;
+}
+ul#botcomun li.conSubMenu {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left top; padding-left: 10px; cursor: e-resize;
+}
+ul#botcomun_1 li.conSubMenu {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left top; padding-left: 10px; cursor: e-resize;
+}
+ul#botcomun_1 li.conSubMenu {
+	background: url("../images/btn_menu.gif") no-repeat left top;
+}
+ul#botcomun li.conSubMenu_activo {
+	background: url("../images/btn_sub_menu.jpg") no-repeat left bottom; color: rgb(255, 255, 255); padding-left: 10px; font-weight: bold;
+}
+ul#botcomun li.conSubMenu ul {
+	padding-top: 5px; font-weight: normal; display: none;
+}
+ul#botcomun li.conSubMenu_activo ul {
+	padding-top: 5px; font-weight: normal; display: none;
+}
+ul#botcomun_1 li.conSubMenu ul {
+	padding-top: 5px; font-weight: normal; display: none;
+}
+ul#botcomun li.conSubMenu ul li {
+	border: 0px currentColor; left: -8px; width: 100%; padding-left: 8px;
+}
+ul#botcomun li.conSubMenu_activo ul li {
+	border: 0px currentColor; left: -8px; width: 100%; padding-left: 8px;
+}
+ul#botcomun_1 li.conSubMenu ul li {
+	border: 0px currentColor; left: -8px; width: 100%; padding-left: 8px;
+}
+ul#botcomun li.conSubMenu ul li a {
+	width: 100%;
+}
+ul#botcomun li.conSubMenu_activo ul li a {
+	width: 100%;
+}
+ul#botcomun li.conSubMenu_activo ul li div {
+	width: 100%;
+}
+ul#botcomun_1 li.conSubMenu ul li a {
+	width: 100%;
+}
+ul#botcomun li.conSubMenu_activo ul li div {
+	height: 18px;
+}
+ul#botcomun li.conSubMenu_activo li.activo {
+	left: 0px; width: 200px; font-weight: bold;
+}
+ul#botcomun li.conSubMenu:hover ul {
+	display: block;
+}
+ul#botcomun li.conSubMenu_activo:hover ul {
+	display: block;
+}
+ul#botcomun li.iehover ul {
+	display: block;
+}
+ul#botcomun_1 li.conSubMenu:hover ul {
+	display: block;
+}
+ul#botcomun_1 li.iehover ul {
+	display: block;
+}
+ul#botcomun li a img {
+	border: 0px currentColor; vertical-align: middle;
+}
+ul#botcomun li.titulo {
+	background: url("../images/btn_menu_titulo.gif") no-repeat left top; color: rgb(255, 255, 255); line-height: 20px; padding-left: 10px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold;
+}
+div.contenidos a {
+	color: rgb(1, 111, 0); text-decoration: none;
+}
+div.contenidos a:hover {
+	color: rgb(1, 175, 0);
+}
+div.contenidos div.idiomas {
+	width: 100%; text-align: center; color: rgb(119, 119, 119); font-size: 10px; float: left; position: relative;
+}
+div.contenidos div.idiomas a {
+	color: rgb(119, 119, 119); line-height: 22px; text-decoration: none;
+}
+div.contenidos div.idiomas a:hover {
+	color: rgb(0, 119, 0);
+}
+div.contenidos div.copy {
+	width: 100%; text-align: center; color: rgb(153, 153, 153); padding-bottom: 10px; font-size: 11px; float: left; position: relative;
+}
+div.contenidos div.copy a {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+div.contenidos div.copy a:hover {
+	color: rgb(0, 119, 0);
+}
+div.contenidos div.banner {
+	padding: 0px 0px 10px; width: 600px; text-align: center; float: left; position: relative;
+}
+div.caja_paseos {
+	background: url("../images/bg_caja_paseos.gif") repeat-y left top; width: 600px; margin-bottom: 10px; float: left; position: relative;
+}
+div.caja_paseos div.top {
+	width: 100%; height: 27px; float: left; position: relative; background-color: rgb(102, 204, 0);
+}
+div.caja_paseos div.top h2 {
+	margin: 0px; color: rgb(255, 255, 255); line-height: 27px; padding-left: 6px; font-family: Arial,"Helvetica",sans-serif; font-size: 16px; font-weight: bold; float: left; position: relative;
+}
+div.caja_paseos div.top div.cantidad_paseos {
+	color: rgb(255, 255, 255); line-height: 27px; padding-right: 6px; float: right; position: relative;
+}
+div.caja_paseos div.contenido {
+	width: 147px; color: rgb(6, 75, 65); margin-right: 4px; float: left; position: relative;
+}
+div.caja_paseos div.foto {
+	background: url("../images/bg_caja_paseo_flecha.gif") no-repeat 126px 55px rgb(5, 75, 64);
+}
+div.caja_paseos div.contenido h3 {
+	margin: 10px 0px 0px; padding: 0px 10px; font-size: 10px; font-weight: normal;
+}
+div.caja_paseos div.contenido h4 {
+	margin: 0px 0px 14px; padding: 0px 10px; font-size: 11px; font-weight: bold;
+}
+div.caja_paseos div.contenido h4 a {
+	color: rgb(6, 75, 65); text-decoration: none;
+}
+div.caja_paseos div.contenido h4 a:hover {
+	color: rgb(0, 119, 0);
+}
+div.caja_paseos div.contenido div.texto {
+	padding: 0px 10px;
+}
+div.caja_paseos div.botones {
+	width: 100%; clear: both; margin-top: 10px; float: left; position: relative;
+}
+div.caja_paseos div.btn_ver {
+	width: 147px; text-align: right; font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-weight: bold; margin-left: 4px; float: left; position: relative;
+}
+div.caja_paseos div.btn_ver a {
+	padding: 4px 7px; color: rgb(6, 51, 75); text-transform: uppercase; line-height: 22px; text-decoration: none; background-color: rgb(177, 185, 188);
+}
+div.caja_paseos div.btn_ver a:hover {
+	background-color: rgb(102, 204, 0);
+}
+div.medio div.derecha div.barra_derecha div.banner {
+	padding: 0px 0px 10px; width: 150px; float: left; position: relative;
+}
+div.clima {
+	width: 150px; font-family: Arial,Helvetica,sans-serif; margin-bottom: 14px; float: left; position: relative; background-color: rgb(255, 255, 255);
+}
+div.clima div.titulo {
+	height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 12px; font-weight: bold; position: relative; background-color: rgb(102, 204, 0);
+}
+div.clima div.medio {
+	position: relative;
+}
+div.clima div.temp {
+	left: 56px; top: 8px; width: 90px; height: 25px; text-align: center; color: rgb(84, 83, 43); font-family: Arial,Helvetica,sans-serif; font-size: 18px; font-weight: bold; position: absolute;
+}
+div.clima div.estado {
+	left: 56px; top: 33px; width: 90px; height: 25px; text-align: center; color: rgb(84, 83, 43); font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-weight: bold; position: absolute;
+}
+div.clima div.inferior {
+	width: 100%; height: 19px; color: rgb(255, 255, 255); line-height: 19px; font-size: 9px; font-weight: normal; float: left; position: relative; background-color: rgb(6, 51, 75);
+}
+div.clima div.inferior div.texto_corto {
+	padding-left: 4px; float: left; position: relative;
+}
+div.clima div.inferior div.ver {
+	width: 40px; height: 19px; text-align: center; float: right; position: relative; background-color: rgb(102, 204, 0);
+}
+div.clima div.inferior div.ver a {
+	color: rgb(6, 51, 75); font-size: 10px; font-weight: normal; text-decoration: none; display: block; background-color: rgb(177, 185, 188);
+}
+div.clima div.inferior div.ver a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 204, 0);
+}
+#interads {
+	width: 150px; overflow: hidden; clear: left; font-size: 11px; float: left;
+}
+#interads div {
+	padding-bottom: 6px; margin-bottom: 14px; border-bottom-color: rgb(206, 205, 169); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#interads a {
+	color: rgb(0, 170, 0); font-size: 11px; font-weight: bold; text-decoration: none; margin-top: 6px; display: block;
+}
+#interads a:hover {
+	text-decoration: underline;
+}
+#interads a.promo {
+	color: rgb(0, 0, 0); font-size: 15px; text-decoration: none; margin-bottom: 6px; display: block;
+}
+#interads a.promo:hover {
+	text-decoration: underline;
+}
+#interads p {
+	color: rgb(0, 0, 0); margin-top: 5px; margin-bottom: 0px;
+}
+.tabs {
+	top: 100px; width: 122px; height: 59px; right: -95px; padding-top: 16px; display: block; position: fixed; z-index: 999999; clip: inherit;  background-color:#CCCCCC;
+}
+.tabs a {
+	width: 76px; padding-right: 10px; padding-bottom: 12px; clear: both; float: right; display: block;
+}
+.tabs img {
+	border: 0px currentColor; z-index:99999999;
+}
+.twitter {
+	top: 80px; background-image: url("../images/twitter_bg.png"); background-repeat: no-repeat; z-index:99999;
+}
+.facebook {
+	top: 155px; background-image: url("../images/facebook_bg.png"); background-repeat: no-repeat;  z-index:99999;
+}
+.youtube {
+	top: 231px; background-image: url("../images/youtube_bg.png"); background-repeat: no-repeat;  z-index:99999;
+}
+.googleplus {
+	top: 306px; height: 75px; padding-top: 1px; background-image: url("../images/googleplus_bg.png"); background-repeat: no-repeat;
+}
+.googleplus_p {
+	top: 306px; height: 75px; padding-top: 1px; background-image: url("../images/googleplus_bg.png"); background-repeat: no-repeat;
+}
+.googleplus_i {
+	top: 306px; height: 75px; padding-top: 1px; background-image: url("../images/googleplus_bg.png"); background-repeat: no-repeat;
+}
+.googleplus_p {
+	background-image: url("../images/googleplus_bg_p.png");
+}
+.googleplus_i {
+	background-image: url("../images/googleplus_bg_i.png");
+}
+.tabs .plusone {
+	padding-top: 10px; clear: right; margin-right: 2px; float: right;  z-index:99999;
+}
+.tabs .addcircle {
+	padding-top: 10px; clear: right; margin-right: 2px; float: right;
+}
+.addcircle a {
+	padding: 0px; width: 32px; clear: right;
+}
+.corredores {
+	float: left; position: relative; z-index: 10;
+}
+.menu {
+	background: url("../images/bg_menu.jpg") repeat-x 0px 0px rgb(9, 57, 80); margin: 0px; padding: 0px; width: 960px; height: 40px; text-align: center; display: block; list-style-type: none; position: relative;
+}
+.menu li {
+	margin: 0px; padding: 0px; display: inline;
+}
+.menu li a {
+	width: 80px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: Arial,Helvetica,sans-serif; font-size: 14px; text-decoration: none; border-right-color: rgb(20, 114, 154); border-left-color: rgb(0, 0, 0); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left; display: block;
+}
+.menu li a:hover {
+	background: url("../images/bg_over.jpg") repeat-x 0px 0px rgb(14, 106, 159); color: rgb(255, 255, 255);
+}
+.sobre_btn_corredor {
+	background: url("../images/bg_over.jpg") repeat-x 0px 0px rgb(14, 106, 159); color: rgb(255, 255, 255);
+}
+.menu .resalta {
+	background: url("../images/bg_over.jpg") repeat-x 0px 0px rgb(14, 106, 159); color: rgb(255, 255, 255);
+}
+.menu a.activo {
+	background: url("../images/bg_over.jpg") repeat-x 0px 0px rgb(14, 106, 159); color: rgb(255, 255, 255);
+}
+.submenu {
+	margin: 0px; padding: 20px; left: 0px; top: 40px; width: 920px; text-align: center; display: none; list-style-type: none; position: absolute; z-index: 10; background-color: rgb(14, 106, 159);
+}
+.submenu li {
+	background: url("../images/separador_li.gif") repeat-y left top; border: 0px currentColor; width: 180px; float: left;
+}
+.submenu li a {
+	padding: 0px 10px; border: 0px currentColor; width: 150px; text-align: left; line-height: 20px; font-family: Arial,Helvetica,sans-serif; font-size: 11px; margin-left: 5px; display: block;
+}
+.submenu li a:hover {
+	background-image: none; background-color: rgb(12, 85, 129);
+}
+.submenu .descripcion {
+	border: 0px currentColor; width: 360px; height: 150px; text-align: left; color: rgb(255, 255, 255); padding-right: 20px; clear: left; font-family: Arial,Helvetica,sans-serif; font-size: 11px; float: left; background-image: none;
+}
+.submenu .descripcion strong {
+	font-size: 16px;
+}
+.submenu .descripcion img {
+	margin-right: 10px; margin-bottom: 10px; float: left;
+}
+.submenu .descripcion a {
+	margin: 5px 0px 0px; width: 60px; color: rgb(255, 255, 255); line-height: 20px; padding-left: 8px; float: left; display: block;
+}
+.submenu .descripcion a:hover {
+	background: url("../images/bullet.gif") no-repeat 65px rgb(12, 85, 129); color: rgb(255, 255, 255);
+}
+.video_home {
+	width: 960px; height: 180px; text-align: center; overflow: hidden !important; position: relative;
+}
+.menu_ciudad td {
+	text-align: left;
+}
+#float {
+	width: 600px; height: 300px; position: absolute; z-index: 3; background-color: rgb(255, 255, 255);
+}
+#tn {
+	left: -8px; top: 4px; width: 85px; position: absolute;
+}
+#tn a {
+	text-align: center; color: rgb(99, 99, 99); font-family: "Orbitron", sans-serif; font-size: 11px;
+}
+#tn a:hover {
+	color: rgb(99, 99, 99);
+}
+#tn img {
+	padding-bottom: 4px;
+}
+div.home_integradas {
+	margin: 0px 0px 10px; width: 100%; height: 300px; color: rgb(255, 255, 255); line-height: 13px; overflow: hidden; font-family: Tahoma, Arial, sans-serif; font-size: 11px; float: left; position: relative;
+}
+div.home_integradas div.izquierda {
+	width: 400px; height: 300px; background-color: rgb(92, 140, 206);
+}
+div.home_integradas div.izquierda div.mapa {
+	width: 400px; position: absolute; z-index: 2;
+}
+div.home_integradas div.izquierda div.texto {
+	margin: 10px 10px 0px 0px; width: 200px; float: right;
+}
+div.home_integradas div.izquierda div.texto div.titulo {
+	line-height: 20px; padding-bottom: 14px; font-family: Arial, "Helvetica", sans-serif; font-size: 18px; font-weight: normal;
+}
+div.home_integradas div.derecha {
+	width: 200px;
+}
+div.home_integradas div.derecha div.superior {
+	width: 200px; height: 130px; overflow: hidden;
+}
+div.home_integradas div.derecha div.inferior {
+	height: 170px; background-color: rgb(242, 242, 242);
+}
+div.home_integradas div.derecha div.inferior div.titulo {
+	padding: 0px 0px 0px 10px; width: 190px; color: rgb(255, 255, 255); line-height: 26px; font-family: Arial, "Helvetica", sans-serif; font-size: 13px; font-weight: bold; margin-bottom: 4px; float: left; position: relative; background-color: rgb(102, 204, 0);
+}
+div.home_integradas div.derecha div.inferior div.subtitulo {
+	padding: 0px 10px 4px; color: rgb(5, 43, 63); font-size: 11px; font-weight: bold; float: left; position: relative;
+}
+div.home_integradas div.derecha div.inferior div.texto {
+	padding: 0px 10px; width: 180px; color: rgb(5, 43, 63); float: left; position: relative;
+}
+div.home_integradas div.derecha div.inferior div.texto a {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.home_integradas div.derecha div.inferior div.texto a:link {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.home_integradas div.derecha div.inferior div.texto a:visited {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.home_integradas div.derecha div.inferior div.texto a:active {
+	color: rgb(51, 153, 0);
+}
+div.home_integradas div.derecha div.inferior div.texto a:hover {
+	color: rgb(51, 153, 0);
+}
+div.rota_foto {
+	margin: 0px 0px 13px; width: 600px; float: left; position: relative; background-color: rgb(242, 242, 242);
+}
+div.rota_foto div.titulo {
+	padding: 0px 0px 0px 10px; width: 190px; color: rgb(255, 255, 255); line-height: 26px; font-family: Arial, "Helvetica", sans-serif; font-size: 13px; font-weight: bold; margin-bottom: 4px; float: left; position: relative; background-color: rgb(102, 204, 0);
+}
+div.rota_foto div.subtitulo {
+	padding: 0px 10px 4px; color: rgb(5, 43, 63); font-size: 11px; font-weight: bold; float: left; position: relative;
+}
+div.rota_foto div.texto {
+	padding: 0px 10px; width: 172px; color: rgb(5, 43, 63); float: left; position: relative;
+}
+div.rota_foto div.texto a {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.rota_foto div.texto a:link {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.rota_foto div.texto a:visited {
+	color: rgb(0, 119, 0); text-decoration: none;
+}
+div.rota_foto div.texto a:active {
+	color: rgb(51, 153, 0);
+}
+div.rota_foto div.texto a:hover {
+	color: rgb(51, 153, 0);
+}
+div.rota_foto div.contenedor {
+	width: 400px; height: 170px; overflow: hidden; float: left; position: relative; background-color: rgb(255, 255, 255);
+}
+div.rota_foto div.contenedor div.deslizable {
+	height: 170px; float: left; position: relative;
+}
+div.rota_foto div.deslizable a {
+	float: left;
+}
+div.tematico {
+	background: no-repeat 0px 21px rgb(102, 204, 0); margin: 0px 0px 10px; width: 100%; height: 230px; float: left; position: relative;
+}
+div.tematico div.titulo {
+	padding: 0px 7px; color: rgb(255, 255, 255); line-height: 21px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; position: relative;
+}
+div.tematico div.subtitulo {
+	padding: 7px; line-height: 14px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; position: relative;
+}
+div.tematico div.subtitulo a {
+	color: rgb(6, 51, 75); text-transform: uppercase; font-weight: bold; text-decoration: none;
+}
+div.tematico div.subtitulo a:link {
+	color: rgb(6, 51, 75); text-transform: uppercase; font-weight: bold; text-decoration: none;
+}
+div.tematico div.subtitulo a:visited {
+	color: rgb(6, 51, 75); text-transform: uppercase; font-weight: bold; text-decoration: none;
+}
+div.tematico div.subtitulo a:hover {
+	text-decoration: underline;
+}
+div.tematico div.subtitulo a:active {
+	text-decoration: underline;
+}
+div.tematico div.texto {
+	padding: 0px 7px; line-height: 12px; position: relative;
+}
+div.tematico div.btn_ver {
+	top: 208px; width: 100%; text-align: right; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; position: absolute;
+}
+div.tematico div.btn_ver a {
+	padding: 4px 7px; color: rgb(6, 51, 75); line-height: 22px; text-decoration: none; background-color: rgb(102, 204, 0);
+}
+div.tematico div.btn_ver a:link {
+	padding: 4px 7px; color: rgb(6, 51, 75); line-height: 22px; text-decoration: none; background-color: rgb(102, 204, 0);
+}
+div.tematico div.btn_ver a:visited {
+	padding: 4px 7px; color: rgb(6, 51, 75); line-height: 22px; text-decoration: none; background-color: rgb(102, 204, 0);
+}
+div.tematico div.btn_ver a:hover {
+	color: rgb(102, 204, 0); background-color: rgb(6, 51, 75);
+}
+div.tematico div.btn_ver a:active {
+	color: rgb(102, 204, 0); background-color: rgb(6, 51, 75);
+}
+div.carrousel_home {
+	width: 600px; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 11px; margin-bottom: 10px; float: left; position: relative;
+}
+div.carrousel_home div.titulo {
+	width: 600px; float: left; position: relative; background-color: rgb(102, 204, 0);
+}
+div.carrousel_home div.titulo h1 {
+	margin: 0px 0px 0px 10px; color: rgb(255, 255, 255); line-height: 26px; font-size: 16px; font-weight: bold;
+}
+div.carrousel_home div.contenedor {
+	width: 600px; height: 170px; overflow: hidden; float: left; position: relative;
+}
+div.carrousel_home div.scroller {
+	float: left; position: relative;
+}
+div.carrousel_home div.scroller div {
+	width: 600px; height: 170px; overflow: hidden; float: left; position: relative;
+}
+div.carrousel_home div.scroller div div.img {
+	width: 260px; float: left; position: relative;
+}
+div.carrousel_home div.scroller div div.texto {
+	width: 320px; margin-right: 10px; float: right; position: relative;
+}
+div.carrousel_home div.scroller div div.texto h2 {
+	margin: 6px 0px 5px; color: rgb(5, 43, 63); font-size: 22px; font-weight: normal;
+}
+div.carrousel_home div.scroller div div.texto a {
+	color: rgb(0, 119, 0); font-weight: bold;
+}
+div.carrousel_home div.scroller div div.texto a:hover {
+	color: rgb(102, 204, 0);
+}
+div.pie_controles {
+	width: 100%; height: 26px; font-family: Geneva, Arial, Helvetica, sans-serif; float: left; position: relative; background-color: rgb(5, 75, 64);
+}
+div.pie_controles div.contenedor_controles {
+	width: 260px; float: left; position: relative;
+}
+div.pie_controles .controles {
+	margin: 0px 0px 0px 12px; padding: 0px; float: left; display: block; list-style-type: none;
+}
+div.pie_controles .controles li {
+	margin: 0px; padding: 0px 4px; width: 66px; color: rgb(255, 255, 255); line-height: 26px; font-size: 11px; float: left; display: block; cursor: pointer;
+}
+div.pie_controles .controles .prevbtn {
+	background-position: left 10px; padding-left: 10px; background-image: url("../images/atras.gif"); background-repeat: no-repeat;
+}
+#playbtn {
+	text-align: center; float: left;
+}
+#pausebtn {
+	text-align: center; float: left; display: none;
+}
+div.pie_controles .controles .nextbtn {
+	background-position: right 10px; text-align: right; padding-right: 10px; background-image: url("../images/adelante.gif"); background-repeat: no-repeat;
+}
+.corredores {
+	border-bottom-color: rgb(102, 204, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.dfiscal {
+	top: -13px; right: 0px; position: absolute;
+}
+.buscador {
+	left: 20px; top: 170px; width: 300px; text-align: center; position: absolute; z-index: 12;
+}
+.buscador form {
+	width: 100%; position: relative;
+}
+.buscador .holder {
+	background: rgb(255, 255, 255); width: 100%; height: 40px; position: absolute; z-index: 3; box-shadow: 1px 1px 10px rgba(0,0,0,0.9);
+}
+.buscador label {
+	border: 0px currentColor; left: 10px; text-align: left; color: rgb(153, 153, 153); line-height: 40px; font-family: Helvetica, Arial; font-size: 20px; position: absolute; z-index: 10;
+}
+.buscador .bq-input {
+	width: 100%; height: 40px; display: block; position: absolute; z-index: 11;
+}
+.buscador .ur {
+	display: none;
+}
+.bq-input .res {
+	left: 0px; top: 40px; border-top-color: rgb(238, 238, 238); border-top-width: 2px; border-top-style: solid; display: none; position: absolute;
+}
+.bq-input .mres {
+	background: url("../images/cargando.gif") no-repeat center rgb(255, 255, 255); width: 300px; height: auto; text-align: left; margin-top: -1px; box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+.sin-bg.mres {
+	background-image: none;
+}
+.mres .bqprov {
+	text-align: center; color: rgb(51, 51, 51); padding-bottom: 6px; font-size: 16px;
+}
+.mres .bnom {
+	font-size: 14px;
+}
+.bqlinks {
+	padding: 6px 0px 0px 6px; height: 174px; position: relative;
+}
+.ciud {
+	padding: 6px 10px; color: rgb(51, 51, 51); text-decoration: none; display: block; cursor: pointer;
+}
+.ciud:hover {
+	background-color: rgb(238, 238, 238);
+}
+.dest {
+	margin: 2px; width: 140px; height: 80px; text-align: center; text-decoration: none; float: left; background-color: rgb(7, 92, 123);
+}
+.dest:hover {
+	background-color: rgb(125, 207, 44);
+}
+.dest img {
+	border: 0px currentColor;
+}
+.ciud span.pr {
+	color: rgb(204, 204, 204); line-height: 14px; font-size: 12px;
+}
+.bqprov span {
+	color: rgb(204, 204, 204); line-height: 14px; font-size: 12px;
+}
+.mres a:hover {
+	
+}
+.buscador input[type='text'] {
+	padding: 0px 10px; border: 0px currentColor; width: 280px; height: 40px; font-size: 20px; box-shadow: none;
+}
+.buscador label.lno {
+	display: none;
+}
+.no-ciud {
+	padding: 6px 0px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold;
+}

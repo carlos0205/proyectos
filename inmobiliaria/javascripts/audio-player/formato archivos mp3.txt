@@ -1,0 +1,17 @@
+44.1 kHz, or 22.05 kHz, or 11.025 kHZ
+
+Option 				Effect 
+autostart=yes 			The player will automatically open and start to play the track (default value is no) 
+loop=yes 			The track will be looped indefinitely (default value is no) 
+bg=0xHHHHHH 			Background colour option (where HHHHHH is a valid hexadecimal colour value such as FFFFFF or 009933)  
+leftbg=0xHHHHHH 		Left background colour  
+rightbg=0xHHHHHH 		Right background colour 
+rightbghover=0xHHHHHH 		Right background colour (hover)  
+lefticon=0xHHHHHH		Left icon colour  
+righticon=0xHHHHHH 		Right icon colour  
+righticonhover=0xHHHHHH 	Right icon colour (hover)  
+text=0xHHHHHH 			Text colour  
+slider=0xHHHHHH 		Slider colour  
+loader=0xHHHHHH 		Loader bar colour  
+track=0xHHHHHH 			Progress track colour  
+border=0xHHHHHH 		Progress track border colour  

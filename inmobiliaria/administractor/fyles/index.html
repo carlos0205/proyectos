@@ -1,0 +1,140 @@
+<?php
+session_start();
+include("general/sesion.php");
+sesion();
+include("general/conexion.php") ;
+$enlace = enlace();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript" language="JavaScript1.2" src="../js/stm31.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>administractor de Contenidos</title>
+<link href="../css/contenido.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	
+}
+-->
+</style>
+ <script language="javascript" type="text/javascript">
+	function dentro(valor)
+	 {
+		valor.style.backgroundColor='#F3F3F3';
+		valor.style.cursor='hand';
+	 }
+	function fuera(valor)
+	{
+		valor.style.backgroundColor='#FFFFFF';
+	}
+</script>
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 400px ">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="1056" height="154" valign="top" bgcolor="#A75B44"><img src="../images/logocli.jpg"  /></td>
+    
+  </tr>
+
+  <tr>
+    <td height="370" colspan="2" valign="top">
+      <table width="100%" height="370" border="0" cellpadding="0" cellspacing="0">
+	  <form id="form1" name="frmloguin" method="post" action="verusu.php"  enctype="multipart/form-data">
+        <!--DWLayoutTable-->
+        <tr>
+          <td height="39" colspan="4" valign="top" ><table width="100%" border="0" cellpadding="0" cellspacing="0" >
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="1165" height="33">&nbsp;</td>
+                </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td width="386" height="29">&nbsp;</td>
+          <td width="585">&nbsp;</td>
+          <td width="13">&nbsp;</td>
+          <td width="410">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="278">&nbsp;</td>
+          <td colspan="2" valign="top"><table width="598" border="0" cellpadding="0" cellspacing="0" class="textonegro" style=" background-image:url(../images/fondologuin.jpg); background-repeat:no-repeat; background-position:center">
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="598" height="70">&nbsp;</td>
+                </tr>
+            <tr>
+              <td height="176" align="center" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="textonegro" style="width: 100%">
+                      <!--DWLayoutTable-->
+                      <tr>
+                        <td width="598" height="26" align="center" valign="top" style="display:none">Tipo<br /></td>
+                      </tr>
+                      <tr>
+                        <td height="2"></td>
+                      </tr>
+                      
+                      <tr>
+                        <td height="19" align="center" valign="top" style="display:none"><select name="seltip" class="textonegro" id="seltip">
+                          <option value="Admin">Admin</option>
+                          <option value="Docente">Docente</option>
+                        </select></td>
+                      </tr>
+                      <tr>
+                        <td height="23" align="center" valign="middle">Ususario</td>
+                      </tr>
+                      
+                      <tr>
+                        <td height="25" align="center" valign="top">
+                          <input name="txtusu" type="text" class="textonegro" id="txtusu" maxlength="10" AUTOCOMPLETE="OFF" />                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td height="22" align="center" valign="middle">Contrase&ntilde;a</td>
+                      </tr>
+                      
+                      <tr>
+                        <td height="24" align="center" valign="top">
+                          <input name="txtcon" type="password" class="textonegro" id="txtcon" maxlength="10" AUTOCOMPLETE="OFF"/>                        </td>
+                      </tr>
+                      <tr>
+                        <td height="42" align="center" valign="middle">
+                          <input name="Submit" type="submit" value="Validarse"  class="button small green"/>                        </td>
+                      </tr>
+                      
+                      
+                      
+                      
+
+                      
+                  </table></td>
+                </tr>
+            <tr>
+              <td height="17"></td>
+            </tr>
+            
+            
+            <tr>
+              <td height="14" align="center" valign="top" class="textomedio"><!--DWLayoutEmptyCell-->&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="16"></td>
+              </tr>
+            
+
+            
+            
+            
+          </table></td>
+          <td>&nbsp;</td>
+        </tr>
+		</form>
+      </table>  </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,205 @@
+.nav2,
+.nav2 * {
+	margin:0;
+	padding:0;
+	
+}
+#horiz-menu2 {
+	height: 15px;
+	position: relative;
+	padding-left:3px;
+	z-index: 33333;
+	margin:0;
+	width: 722px;
+	
+}
+#horiz-menu2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+#horiz-menu2 li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	
+}
+#horiz-menu2 li span {
+	display: block;
+	float: left;
+	text-align:left;
+	
+	
+	
+	
+}
+#horiz-menu2 a {
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+
+/* convierte amayusculas text-transform:uppercase;*/
+text-decoration: none;
+	display: block;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 0px;
+	
+	
+	
+}
+#horiz-menu2 a:hover {
+	text-decoration: none!important;
+}
+#horiz-menu2 li:hover,
+#horiz-menu2 li.sfHover {
+	background: none;
+	
+}
+#horiz-menu2 li li {
+	margin: 0;
+}
+div#horiz-menu2 li li span,
+div#horiz-menu2 li.active li span,
+div#horiz-menu2 li:hover li span {
+	background:none;
+}
+.nav2 {
+	line-height:1.0;
+	float:left;
+	margin-bottom:1.5em;
+	position: relative;
+	
+}
+.nav2 ul {
+	padding: 0;
+}
+.nav2 li {
+	float:left;
+	list-style:none;
+	position:relative;
+}
+.nav2 li li a {
+	display:block;
+	padding: 0;
+	text-decoration:none;
+	background-image: none;
+	float:none;
+	width:160px;
+}
+div#horiz-menu2 li li a {
+	height: 28px;
+	line-height: 28px;
+}
+div#horiz-menu2 li:hover li,
+div#horiz-menu2 li.sfHover li,
+div#horiz-menu2 li.active:hover li,
+div#horiz-menu2 li.active.sfHover li,
+div#horiz-menu2 li:hover li span,
+div#horiz-menu2 li.sfHover li span {
+	background-image: none;
+}
+div#horiz-menu2 li:hover li a,
+div#horiz-menu2 li.sfHover li a,
+div#horiz-menu2 li.active:hover li a,
+div#horiz-menu2 li.active.sfHover li a {
+	background-image: none;
+}
+.nav2 li ul {
+	float:none;
+	left:-1999em;
+	position:absolute;
+	width: 160px;
+	z-index: 10;
+	
+}
+.nav2 li:hover ul,
+.nav2 li.sfHover ul {
+	left:0px;
+	top: 24px;
+}
+.nav2 li:hover li ul,
+.nav2 li.sfHover li ul,
+.nav2 li li:hover li ul,
+.nav2 li li.sfHover li ul,
+.nav2 li li li:hover li ul,
+.nav2 li li li.sfHover li ul {
+	top:-999em;
+}
+.nav2 li li:hover ul,
+.nav2 li li.sfHover ul,
+.nav2 li li li:hover ul,
+.nav2 li li li.sfHover ul,
+.nav2 li li li li:hover ul,
+.nav2 li li li li.sfHover ul {
+	left: 160px;
+	top:0px;
+	width: 160px;
+	
+}
+.nav2 li li {
+	position: relative;
+	float:none;
+	width: 160px; /*linea del submenu*/
+}
+/* colors
+-------------------------------------------------------------------------------*/
+div#horiz-menu2 li:hover a {
+	color: #fff;
+}
+#horiz-menu2 li.active a {
+background: #FFFFFF;
+}
+#horiz-menu2 li.active a:hover {
+background: #22953F;
+}
+.nav2 ul {
+	background:#fff;
+}
+#horiz-menu2 a {
+	color: #fff;
+}
+#horiz-menu2 li  {
+	/*background: url('../images/1.png') no-repeat 100% 0;*/
+}
+#horiz-menu2 li li {
+
+}
+div#horiz-menu2 li:hover {
+/*	background: url('../images/2.png') repeat-x 0 0;
+	
+*/
+background: #00000;}
+#horiz-menu2 li a:hover, #horiz-menu2 li.sfHover {
+	color: #CA0406!important;
+}
+#horiz-menu2 li.sfHover a {
+	color: #fff;
+}
+
+#horiz-menu2 li li {
+	border-bottom: 1px solid #000000;
+	height:150;
+}
+
+#horiz-menu2 li:hover span.topdaddy a, #horiz-menu2 li.sfHover span.topdaddy a {
+	color: #fff!important;
+}
+
+#horiz-menu2 li:hover ul, #horiz-menu2 li.sfHover ul {
+	background: #323232;
+}
+#horiz-menu2 li li a:hover, #horiz-menu2 li li.sfHover {
+	background: #1F1F1F;
+
+
+	
+}
+#horiz-menu2 li li a {
+	color: #fff!important;
+}
+#horiz-menu2 li li a:hover, #horiz-menu2 li li.sfhover a:hover {
+	color: #fff;
+}
